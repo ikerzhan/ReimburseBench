@@ -1,8 +1,8 @@
-# REIMBURSEBENCH
+# ReimburseBench
 
-This repository contains the dataset and evaluation code for **REIMBURSEBENCH**, a benchmark for full-workflow reimbursement audit reasoning.
+This repository contains the dataset and evaluation code for **ReimburseBench**, a benchmark for full-workflow reimbursement audit reasoning.
 
-![REIMBURSEBENCH Overview](main_figure.png)
+![ReimburseBench Overview](main_figure.png)
 
 ---
 
@@ -46,7 +46,7 @@ Each `workflow/<id>/` folder contains:
 }
 ```
 
-- `id`: workflow identifier; 1.x.x = easy, 2–4.x.x = medium, 5–6.x.x = hard.
+- `id`: workflow identifier.
 - `source_files.Background_information`: policy documents, guidelines, forms.
 - `source_files.Receipts`: receipt images keyed by holder name.
 
@@ -54,15 +54,15 @@ Each `workflow/<id>/` folder contains:
 
 ```json
 {
-    "Scoring_point_1_Flag": 1,
-    "Scoring_point_2_Max_legal": 1500.0,
-    "Scoring_point_3_Problem_1": {"answer": "Amount-cap violation", "score": 5}
+    "Scoring_point_1_Flag": {"answer": 0, "score": 0.25},
+    "Scoring_point_2_Max_legal": {"answer": 1500.0, "score": 0.25},
+    "Scoring_point_3_Problem_1": {"answer": "Amount-cap violation", "score": 0.5}
 }
 ```
 
 - `Scoring_point_1_Flag`: 1 = reimbursable, 0 = not fully reimbursable.
 - `Scoring_point_2_Max_legal`: maximum legally reimbursable amount.
-- `Scoring_point_3_Problem_*`: each describes one violation; `score` weighs its contribution.
+- `Scoring_point_3_Problem_*`: each describes one violation.
 
 ### Logic Points
 
@@ -261,7 +261,7 @@ Copyright 2026 The ReimburseBench Authors
 ## Citation
 
 ```bibtex
-@misc{reimbursebench2025,
+@misc{reimbursebench2026,
   title={REIMBURSEBENCH: Benchmarking LMMs as Full-Workflow Auditors for Financial Internal Control},
   author={Anonymous Authors},
   year={2026},
