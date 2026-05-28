@@ -1,39 +1,37 @@
-# ReimburseBench v1 — Full-Workflow Reimbursement Audit Benchmark for LMMs
+# REIMBURSEBENCH
 
-ReimburseBench is a benchmark designed to evaluate the audit capabilities of large multimodal models (LMMs) in the domain of corporate reimbursement auditing. It tests whether an AI agent can:
+This repository contains the dataset and evaluation code for **REIMBURSEBENCH**, a benchmark for full-workflow reimbursement audit reasoning.
 
-1. **Analyze** multi-modal documents (receipt images, PDF policies, Excel spreadsheets, Word documents).
-2. **Detect** compliance violations, forgeries, inconsistencies, and fraudulent intent.
-3. **Compute** the maximum legally reimbursable amount (MAX_LEGAL) and determine a binary reimbursement flag (FLAG).
-4. **Reason** step-by-step, citing specific policy clauses and evidence.
+![REIMBURSEBENCH Overview](main_figure.png)
 
 ---
 
-## Dataset Structure
+## Dataset
 
 ```
 ReimburseBench_v1/
-├── infer.py                  # Inference script: builds prompts and calls LLM
-├── eval.py                   # Evaluation script: scores FLAG, MAX_LEGAL, and logic points
-├── eval_failure_mode.py      # Failure mode analysis
-├── metadata.json             # Metadata for all workflows (difficulty, logic points)
-├── workflow/                 # Contains ~151 sub-directories, one per workflow
+├── infer.py                  # Builds prompts and calls LMM
+├── eval.py                   # Scores FLAG, MAX_LEGAL, and logic points
+├── eval_failure_mode.py      # Failure mode analysis (Mode 1–3)
+├── metadata.json             # Difficulty & logic-point labels for all workflows
+├── workflow/                 # 151 sub-directories, one per workflow
 │   ├── 1.1.1/
-│   ├── 1.1.2/
 │   ├── ...
 │   └── 6.6.4/
-└── README.md                 # This file
+└── README.md
 ```
 
----
+### Workflow Contents
 
-## Workflow Structure
+Each `workflow/<id>/` folder contains:
 
-Each subfolder under `workflow/` (e.g., `workflow/1.1.1/`) represents a single reimbursement audit case and contains:
+| File | Purpose |
+|---|---|
+| `task_description.json` | Reimbursement application (context, claimed amount, currency, file list) |
+| `reference_answer.json` | Ground truth: FLAG, MAX_LEGAL, per-problem scoring points |
+| Source documents | Policy PDFs, receipts (images), Excel/Word files listed in `task_description.json` |
 
-### Task Description File
-
-**`task_description.json`** — Defines the reimbursement request:
+### `task_description.json`
 
 ```json
 {
@@ -42,59 +40,54 @@ Each subfolder under `workflow/` (e.g., `workflow/1.1.1/`) represents a single r
     "required_amount": 1620.0,
     "currency": "USD",
     "source_files": {
-        "Background_information": [
-            "General Guidelines for Reimbursement of Travel Expenses...pdf",
-            "Notice on Travel Arrangements for Participants...pdf",
-            "Reimbursement_Standard.xlsx",
-            "Attendee Itinerary Approval Form.xlsx"
-        ],
-        "Receipts": {
-            "Li_Wei": "2_HotelBill_723.jpg"
-        }
+        "Background_information": ["policy.pdf", "standard.xlsx", ...],
+        "Receipts": {"Li_Wei": "hotel_bill.jpg"}
     }
 }
 ```
 
-| Field | Description |
-|---|---|
-| `id` | Unique workflow identifier |
-| `context` | Natural language description of the reimbursement scenario |
-| `required_amount` | The amount claimed by the applicant |
-| `currency` | Currency code (e.g., USD, CNY, EUR) |
-| `source_files.Background_information` | List of policy documents, guidelines, approvals, etc. |
-| `source_files.Receipts` | Dictionary mapping attendee names to receipt file paths |
+- `id`: workflow identifier; 1.x.x = easy, 2–4.x.x = medium, 5–6.x.x = hard.
+- `source_files.Background_information`: policy documents, guidelines, forms.
+- `source_files.Receipts`: receipt images keyed by holder name.
 
-### Reference Answer File
-
-**`reference_answer.json`** — The ground truth for evaluation:
+### `reference_answer.json`
 
 ```json
 {
     "Scoring_point_1_Flag": 1,
     "Scoring_point_2_Max_legal": 1500.0,
-    "Scoring_point_3_Problem_1": {
-        "answer": "Amount-cap violation",
-        "score": 5
-    }
+    "Scoring_point_3_Problem_1": {"answer": "Amount-cap violation", "score": 5}
 }
 ```
 
-| Key | Description |
-|---|---|
-| `Scoring_point_1_Flag` | Binary flag: 1 = reimbursable, 0 = not fully reimbursable |
-| `Scoring_point_2_Max_legal` | Maximum amount (float) that the policy allows |
-| `Scoring_point_3_Problem_1` (and higher) | Content describing specific problems found in the case |
+- `Scoring_point_1_Flag`: 1 = reimbursable, 0 = not fully reimbursable.
+- `Scoring_point_2_Max_legal`: maximum legally reimbursable amount.
+- `Scoring_point_3_Problem_*`: each describes one violation; `score` weighs its contribution.
 
-Each logic point contains:
-- **`answer`**: A short description of the problem.
-- **`score`**: The maximum score allocated to this point.
+### Logic Points
 
+The benchmark covers **12 violation categories** across **4 groups**:
 
----
+| ID | Name | Group |
+|---|---|---|
+| L1 | Invoice content completeness | A. Evidence Integrity |
+| L2 | Supporting-document completeness | A. Evidence Integrity |
+| L3 | Claimant identity matching | B. Cross-Doc Consistency |
+| L4 | Invoice type matching | B. Cross-Doc Consistency |
+| L5 | Amount-cap violation | C. Policy Compliance |
+| L6 | Invoice timing violation | C. Policy Compliance |
+| L7 | Location deviation | C. Policy Compliance |
+| L8 | Other substantive mismatch | C. Policy Compliance |
+| L9 | Invoice forgery | D. Authenticity & Legitimacy |
+| L10 | Illegitimate purpose | D. Authenticity & Legitimacy |
+| L11 | Duplicate reimbursement | D. Authenticity & Legitimacy |
+| L12 | Required-amount miscalculation | D. Authenticity & Legitimacy |
 
-## Metadata
+Plus two **distractors** (D1: Irrelevant context, D2: Blurred invoice image) that tag no scoring points.
 
-**`metadata.json`** is an array of all workflows with their difficulty levels and associated logic points:
+### `metadata.json`
+
+Array of all 151 workflows with difficulty and logic-point labels:
 
 ```json
 {
@@ -105,61 +98,18 @@ Each logic point contains:
 }
 ```
 
-| Field | Description |
-|---|---|
-| `id` | Workflow identifier |
-| `difficulty` | One of: `easy`, `medium`, `hard` |
-| `Scoring_point_*` | Logic points expected for each scoring sub-question |
-| `expected_types` | Full list of problem types expected in this workflow (across all scoring points, including the two workflow-level distractors) |
-
-### Logic Point Categories
-
-| English Name | Category | Description |
-|---|---|---|
-| Invoice content completeness | A. Evidence Integrity | Invoice missing required fields per policy |
-| Supporting-document completeness | A. Evidence Integrity | Missing required supporting documents |
-| Claimant identity matching | B. Cross-Doc Consistency | Person names / headcount mismatch |
-| Invoice type matching | B. Cross-Doc Consistency | Invoice category does not match claimed expense |
-| Amount-cap violation | C. Policy Compliance | Claimed amount exceeds policy cap |
-| Invoice timing violation | C. Policy Compliance | Invoice date outside valid period |
-| Location deviation | C. Policy Compliance | Expense location inconsistent with business activity |
-| Other substantive mismatch | C. Policy Compliance | Other mismatches |
-| Invoice forgery | D. Authenticity & Legitimacy | Receipt appears fabricated or tampered |
-| Illegitimate purpose | D. Authenticity & Legitimacy | Personal use, quota padding, etc. |
-| Duplicate reimbursement | D. Authenticity & Legitimacy | Same expense claimed more than once |
-| Required-amount miscalculation | D. Authenticity & Legitimacy | Arithmetic error in claimed amount |
-| Irrelevant context | Distractor | Unrelated information added to background |
-| Blurred (but valid) invoice image | Distractor | Blurry image that is still a valid receipt |
-
 ---
 
-## Inference Script (`infer.py`)
+## Inference (`infer.py`)
 
-### Overview
+Reads all workflows, processes source files (images → base64, PDFs → text, Excel/Word → Markdown), constructs prompts, and calls an LMM.
 
-`infer.py` reads all workflows, processes source files into a structured prompt adhering to the OpenAI chat message format, and calls an LLM to generate audit responses.
+### Setup
 
-### Key Functions
+Two prompt conditions are available, controlled by the `expert_prompt` flag:
 
-#### `process_source_files(work_dir, source_files, image_upload_method)`
-Reads background documents and receipts from disk and converts them into ordered content blocks (text + images) suitable for multimodal LLMs.
-
-**Supported file types:**
-- Images → base64-encoded data URIs
-- PDFs → per-page extracted text
-- Excel → Markdown tables
-- Word → Markdown text (including tables)
-
-#### `build_messages(context, content_blocks, required_amount, currency, expert_prompt)`
-Constructs system and user messages for the model. Two system prompt variants are available:
-- **`expert_prompt=False`** → Basic system message (`SYSTEM_MSG_NO_CONTEXT`).
-- **`expert_prompt=True`** → Expert system message (`SYSTEM_MSG_WITH_CONTEXT`) with a four-stage audit workflow (Authenticity → Compliance → Supporting Docs → Amount Integrity).
-
-#### `call_model_with_retry(messages, **kwargs)`
-**⚠️ PLACEHOLDER** — Must be implemented by the user. Expected to:
-- Accept messages in OpenAI chat format.
-- Return an object with `.content` (response text), `.reasoning_content` (optional), and `.usage` (token counts).
-- Handle retries internally.
+- **False (ZK)**: Only task description + output format.
+- **True (EK)**: Prepends a 4-stage audit workflow (Authenticity → Compliance → Supporting Docs → Amount Integrity) and core audit principles.
 
 ### Usage
 
@@ -167,71 +117,57 @@ Constructs system and user messages for the model. Two system prompt variants ar
 # 1. Set your API key
 set YOUR_API_KEY=sk-xxxxxxxxxxxxxxxx
 
-# 2. Configure and run
+# 2. Configure __main__ and run
 python infer.py
 ```
 
-In `__main__`, configure:
-- `root_dir`: Path to `workflow/` directory.
-- `models`: List of model identifiers.
-- `MAX_TOKENS`: Maximum output tokens.
-- `USE_EXPERT_PROMPT`: Whether to use the expert system prompt.
-- `IMAGE_UPLOAD_METHOD`: `"direct"` (preserves original format) or `"pil"` (converts to PNG).
+### Required: Implement `call_model_with_retry()`
 
-**Output:** A JSON file (e.g., `output/260513224817_results.json`) and an incremental JSONL backup. Each entry contains:
-- `workflow_id`, `model`, `prompt_version`
-- `generated_answer`: The model's full response.
-- `reasoning_content`: Chain-of-thought reasoning (if available).
-- `usage`: Token usage statistics.
-- `latency_seconds`: Response time.
+```python
+def call_model_with_retry(messages, **kwargs):
+    # Example: OpenAI API
+    from openai import OpenAI
+    client = OpenAI(api_key=os.environ["YOUR_API_KEY"])
+    response = client.chat.completions.create(
+        model="your-model",
+        messages=messages,
+        max_tokens=kwargs.get("max_tokens", 4096),
+    )
+    return response  # needs .content, .reasoning_content, .usage
+```
+
+### Output Format Specification
+
+Models must output:
+
+```
+1
+1500.0
+--- Reasoning ---
+...
+--- Problems (if any) ---
+Problem: ...
+```
+
+- **Line 1**: `0` or `1` (FLAG).
+- **Line 2**: MAX_LEGAL numeric value.
+- **Line 3**: `--- Reasoning ---`.
+- After reasoning: `--- Problems (if any) ---`.
+- Each problem on its own line: `Problem: <description>`.
+- No problems: `No problem.`
+
+### Output
+
+A JSON file (e.g., `output/260513224817_results.json`) with entries containing `workflow_id`, `model`, `prompt_version`, `generated_answer`, `reasoning_content`, `usage`, `latency_seconds`.
 
 ---
 
-## Evaluation Script (`eval.py`)
+## Evaluation (`eval.py`)
 
-### Overview
+Two-phase scoring:
 
-`eval.py` evaluates model outputs against reference answers in two phases:
-
-1. **Exact comparison**: Extracts the FLAG (0/1) and MAX_LEGAL (number) from the first two lines of the model output, then compares against the reference.
-2. **LLM-based logic point evaluation**: Uses a separate judge LLM to determine whether each logic point is satisfied by the model's reasoning.
-
-### Key Functions
-
-#### `extract_flag_and_amount(agent_answer)`
-Parses the first two meaningful lines of the model output:
-- Line 1: `"0"` or `"1"` → FLAG.
-- Line 2: A numeric value → MAX_LEGAL.
-Returns `(flag: int | None, amount: Decimal | None)`.
-
-#### `grade_flag(pred_flag, ref_flag_raw)`
-Compares predicted flag to reference. Returns correctness and error details.
-
-#### `grade_amount(pred_amount, ref_amount_raw, tolerance)`
-Compares predicted amount to reference within an absolute tolerance (default: 0.1). Returns correctness, absolute error, and direction (`over` / `under` / `exact`).
-
-#### `call_llm_judge(prompt, api_key, model, use_thinking, max_retries)`
-**⚠️ PLACEHOLDER** — Must be implemented by the user. Expected to evaluate logic points and return:
-```json
-{
-    "point_evaluations": {
-        "<point_id>": {
-            "satisfied": true,
-            "comment": "The agent correctly identified the amount-cap violation."
-        }
-    }
-}
-```
-
-#### `build_logic_judge_prompt(agent_answer, logic_points)`
-Constructs a prompt instructing the judge LLM to evaluate whether the agent's response addresses each logic point.
-
-### Scoring
-
-- FLAG: Exact match → full score / zero.
-- MAX_LEGAL: Within tolerance → full score / zero.
-- Logic points: Each has a fixed `max_score` from the reference. The judge decides `satisfied` (true/false). The total score is the sum of all satisfied points' max scores.
-- **No score redistribution**: The judge does not modify scores; it only decides pass/fail per point.
+1. **Deterministic**: Parse FLAG (line 1) and MAX_LEGAL (line 2) from model output. FLAG uses exact match; MAX_LEGAL uses tolerance of 0.1.
+2. **LLM-as-judge**: A separate judge LMM (binary content-matcher) checks if the model's output mentions each pre-specified rubric problem.
 
 ### Usage
 
@@ -239,95 +175,15 @@ Constructs a prompt instructing the judge LLM to evaluate whether the agent's re
 # 1. Set your judge API key
 set YOUR_JUDGE_API_KEY=sk-xxxxxxxxxxxxxxxx
 
-# 2. Configure target result files in __main__ and run
+# 2. Configure __main__ and run
 python eval.py
 ```
 
-In `__main__`, configure:
-- `root_dir`: Path to `workflow/` directory.
-- `JUDGE_MODEL`: Model identifier for the judge.
-- `target_files`: List of result JSON files to evaluate.
-
-**Output:** A JSON file with `_evaled.json` suffix. Each entry contains:
-- `score`: Object with `overall_score`, `max_total_score`, `scoring_points` (detailed per-point results).
-- `llm_judge_meta`: Judge LLM metadata (usage, latency).
-- `llm_judge_error`: Any judge error.
-
-A summary is printed showing per-model/per-prompt:
-- Flag accuracy, Amount exact match rate, Logic point average, Average total score.
-
----
-
-## Failure Mode Analysis (`eval_failure_mode.py`)
-
-### Overview
-
-This script evaluates model outputs for three cognitive failure modes commonly exhibited by LLMs in audit tasks:
-
-| Mode | Name | Description |
-|---|---|---|
-| Mode 1 | Textual Consistency Blindness | The model fails to notice surface-level contradictions or ambiguities in the documents. |
-| Mode 2 | Conflict Self-Rationalization | The model detects a problem but invents a benign excuse (e.g., "probably a typo") instead of flagging it. |
-| Mode 3 | Behavioral Intention Reasoning Defect | The model fails to infer fraudulent intent from suspicious patterns, treating deliberate fraud as simple error. |
-
-### Key Functions
-
-#### `call_llm_judge(prompt, api_key, model, ...)`
-**⚠️ PLACEHOLDER** — Must be implemented by the user. Expected to return:
-```json
-{
-    "mode1": {"triggered": false, "reason": "..."},
-    "mode2": {"triggered": false, "reason": "..."},
-    "mode3": {"triggered": false, "reason": "..."}
-}
-```
-
-### Usage
-
-```bash
-python eval_failure_mode.py
-```
-
-Configure similarly to `eval.py`:
-- `target_files`: List of result JSON files to analyze.
-- Output files use `_mode_eval.json` suffix.
-
----
-
-## Implementation Guide
-
-### Step 1: Implement Model Inference
-
-Replace the placeholder in `infer.py`:
-
-```python
-# in run_tests(), inside the placeholder block
-result = call_model_with_retry(messages, max_tokens=max_tokens)
-```
-
-Implement `call_model_with_retry()`:
-
-```python
-def call_model_with_retry(messages, **kwargs):
-    # Example using OpenAI API
-    from openai import OpenAI
-    client = OpenAI(api_key=os.environ.get("YOUR_API_KEY"))
-    response = client.chat.completions.create(
-        model="your-model",
-        messages=messages,
-        max_tokens=kwargs.get("max_tokens", 4096),
-    )
-    # Wrap the response to expose .content, .reasoning_content, .usage
-    return response
-```
-
-### Step 2: Implement LLM Judge
-
-Replace the placeholder in both `eval.py` and `eval_failure_mode.py`:
+### Required: Implement `call_llm_judge()`
 
 ```python
 def call_llm_judge(prompt, api_key, model, use_thinking=False, max_retries=3):
-    # Example using DeepSeek API
+    # Example: DeepSeek API
     import requests
     payload = {
         "model": model,
@@ -344,61 +200,69 @@ def call_llm_judge(prompt, api_key, model, use_thinking=False, max_retries=3):
     return json.loads(content), None, resp.json().get("usage")
 ```
 
-### Step 3: Run
-
-```bash
-# Inference
-python infer.py
-# or for a specific mode:
-python -c "from infer import run_tests; run_tests('ReimburseBench_v1/workflow', ['gpt-4o'], 'sk-xxx', 'output/results.json')"
-
-# Evaluation
-python eval.py
-
-# Failure mode analysis
-python eval_failure_mode.py
+Expected return:
+```json
+{
+    "point_evaluations": {
+        "<point_id>": {"satisfied": true, "comment": "..."}
+    }
+}
 ```
+
+### Scoring
+
+- FLAG: exact match → full score / zero.
+- MAX_LEGAL: within 0.1 tolerance → full score / zero.
+- Logic points: judge decides `satisfied` (true/false); each has a `max_score`.
+- Per-workflow rubric sums to 1.0.
+- **No score redistribution** — the judge only passes or fails each point.
+
+### Output
+
+A JSON file with `_evaled.json` suffix containing `score` (overall + per-point), `llm_judge_meta` (usage/latency), and `llm_judge_error`.
 
 ---
 
-## Prompt Output Format
+## Failure Mode Analysis (`eval_failure_mode.py`)
 
-Models are expected to output responses in the following strict format:
+Evaluates model outputs for three failure modes:
 
+| Mode | Name | Description |
+|---|---|---|
+| 1 | Content Consistency Blindness | Misses surface-level contradictions |
+| 2 | Conflict Self-Rationalization | Invents benign excuses for detected anomalies |
+| 3 | Behavioral Intention Reasoning Defect | Fails to infer claimants' deep intent |
+
+### Usage
+
+```bash
+python eval_failure_mode.py
 ```
-1
-1500.0
---- Reasoning ---
-[Step-by-step reasoning citing policy clauses and arithmetic]
---- Problems (if any) ---
-Problem: The hotel receipt exceeds the per-night cap of $150 by $120.
-```
 
-- **Line 1**: `0` or `1` (FLAG).
-- **Line 2**: MAX_LEGAL numeric value.
-- **Line 3**: `--- Reasoning ---`.
-- **Following lines**: Detailed reasoning.
-- **After reasoning**: `--- Problems (if any) ---`.
-- **Problems list**: Each problem on its own line prefixed with `Problem: `.
+Requires the same `call_llm_judge()` implementation as `eval.py`. Judge receives reference answers, model reasoning trace, and mode definitions.
+
+Expected return:
+```json
+{
+    "mode1": {"triggered": true, "reason": "..."},
+    "mode2": {"triggered": false, "reason": "..."},
+    "mode3": {"triggered": false, "reason": "..."}
+}
+```
 
 ---
 
 ## License
 
-This benchmark is released under the Apache License, Version 2.0.
-See the [LICENSE](LICENSE) file for details.
+Apache License, Version 2.0. See [LICENSE](LICENSE).
 
 Copyright 2026 The ReimburseBench Authors
 
----
-
 ## Citation
-
-If you use ReimburseBench in your research, please cite:
 
 ```bibtex
 @misc{reimbursebench2025,
-  title={ReimburseBench: Benchmarking LMMs as Full-Workflow Auditors for Financial Internal Control},
+  title={REIMBURSEBENCH: Benchmarking LMMs as Full-Workflow Auditors for Financial Internal Control},
   author={Anonymous Authors},
   year={2026},
 }
