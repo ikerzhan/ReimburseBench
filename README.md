@@ -262,7 +262,7 @@ Copyright 2026 The ReimburseBench Authors
 
 ```bibtex
 @misc{reimbursebench2026,
-  title={REIMBURSEBENCH: Benchmarking LMMs as Full-Workflow Auditors for Financial Internal Control},
+  title={ReimburseBench: Benchmarking LMMs as Full-Workflow Auditors for Financial Internal Control},
   author={Anonymous Authors},
   year={2026},
 }
