@@ -1,0 +1,24 @@
+{
+    "id": "4.8.1",
+    "required_amount": 345.8,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Class_Activity_Approval_Form.xlsx",
+            "Purchase_Order_JD_Screenshot.xlsx",
+            "Reimbursement_Policy_for_Class_Activities.docx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "Li Wei": [
+                "receipt_ecommerce.png"
+            ]
+        }
+    },
+    "context": "Purchase of gifts and decorations for a university class activity (graduation party)"
+}

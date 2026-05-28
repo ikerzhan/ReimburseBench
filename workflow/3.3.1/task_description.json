@@ -1,0 +1,23 @@
+{
+    "id": "3.3.1",
+    "required_amount": 480,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Overtime_Notice.docx",
+            "Overtime_Attendance.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Project Manager": [
+                "Payment_Screenshot.png",
+                "Meal_Order_Record.png"
+            ]
+        }
+    },
+    "context": "Night shift meal allowance for urgent project overtime"
+}

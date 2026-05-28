@@ -1,0 +1,21 @@
+{
+    "id": "5.2.5",
+    "required_amount": 320.99,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Office_Setup_Authorization_2011.docx",
+            "Office_Setup_Item_List_2011.xlsx",
+            "Office_Equipment_Procurement_Policy_2011.docx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Thomas_Anderson": "1_PurchaseTicket_820.jpg"
+        }
+    },
+    "context": "office,purchase"
+}

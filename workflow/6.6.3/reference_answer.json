@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Intended duplicate receipt submission causing inflated claim beyond policy cap: Both submitted images are copies of the same Budget rental agreement (No. 958213373) with identical net charges of CAD 87.63.",
+        "score": 0.5
+    }
+}

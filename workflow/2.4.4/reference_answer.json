@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Lack of background documents. According to Article 11 of 'Polaris_Travel_Business_Entertainment_Expense_Reimbursement_System.pdf', supporting materials required for reimbursement include: Approved Work Plan and Invitation Approval Form for external experts. However, the background documents lack the approval form.",
+        "score": 0.5
+    }
+}

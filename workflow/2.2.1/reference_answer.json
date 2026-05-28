@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 7022.36,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The ticket in file 3_TaxiTicket_886.png should be attributed to Rajesh Malhotra, not the driver Aseem Khan.",
+        "score": 0.16
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The fare on ticket 3_TaxiTicket_886.png is approximately $43~44, which exceeds Rajesh Malhotra's daily taxi reimbursement quota of $30.",
+        "score": 0.17
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "The ticket in file 3_TaxiTicket_885.png has already been reimbursed in the previous year.",
+        "score": 0.17
+    }
+}

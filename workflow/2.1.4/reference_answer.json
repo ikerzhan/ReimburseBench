@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 798,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Partial expenses exceeded the reimbursement limit. DiningPurchaseTicket_2.png, DiningPurchaseTicket_3.png and DiningPurchaseTicket_4.png exceeded the maximum reimbursement amount of $266.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The receipt DiningPurchaseTicket_1.png shows the date as the year 2825, which is an impossible year. Therefore, this receipt is invalid and cannot be accepted for reimbursement.",
+        "score": 0.25
+    }
+}

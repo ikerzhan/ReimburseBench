@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Wrong invoice type submitted: The claim is for reimbursement of a chartered bus (CNY 8,500) for student competition travel. However, the submitted invoice is a restaurant invoice (Nanjing Taste Restaurant, CNY 2,800). According to the Reimbursement Policy, only a formal invoice from the bus company is acceptable for charter expenses. Restaurant invoices are not acceptable.",
+        "score": 0.5
+    }
+}

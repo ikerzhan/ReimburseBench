@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice contains unapproved items: The submitted e‑commerce invoice (receipt_ecommerce.png) lists two line items that are not present in the approved Class Activity Budget Approval Form: 'Milk chocolate box (150g) × 5' (¥90) and 'Glitter greeting card (assorted) × 10' (¥40). According to the reimbursement policy (Section IV), only items explicitly listed in the pre‑approved budget are eligible. The invoice mixes approved and unapproved items without any separation, making it impossible for the finance office to verify which portion corresponds to the approved list. Therefore, the entire invoice is invalid for reimbursement, and the claim is rejected.",
+        "score": 0.5
+    }
+}

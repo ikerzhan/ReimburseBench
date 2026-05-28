@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Zhang Minghui worked overtime until 0:35 on April 22, but the taxi pickup and drop-off times fall within his working hours, which is inconsistent with reality.",
+        "score": 0.5
+    }
+}

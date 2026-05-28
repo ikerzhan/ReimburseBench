@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 1043,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "David Liu (Specialist/General Staff) return airfare is $450, exceeding the North America flight reimbursement limit of $380 for flights 3-6 hours. The excess $70 is not reimbursable. According to Reimbursement_Standard_enterprise.xlsx, Specialist/General Staff level employees have a $380 one-way cap for North America flights 3-6h. His departure ticket ($350) is within the limit.However,David Liu's hotel bill shows $115 per night for 2 nights at Hilton San Francisco Union Square (Tier 1 North America city), totaling $230. This exceeds the accommodation reimbursement limit of $100 per night for Specialist/General Staff level in North America Tier 1 cities. The excess $15 per night ($30 total) is not reimbursable.And so did his taxi fare on June 16.In conclusion, according to the reimbursement standards, excess charges are found on the return flight ticket, meal invoice No. 0615, two nights' hotel accommodation and taxi invoice No. 0616.",
+        "score": 0.5
+    }
+}

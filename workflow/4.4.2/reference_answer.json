@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Missing tax number on hotel invoice: The hotel invoice has a blank 'VAT/TIN' field. According to the Reimbursement Policy, all invoices must contain the hotel's valid tax identification number. This invoice is invalid.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Illegible hotel stamp on invoice: The hotel stamp on the invoice is described as 'illegible – only a faint smudge'. Policy requires the invoice to bear a clear official stamp or electronic seal. This makes the invoice invalid.",
+        "score": 0.25
+    }
+}

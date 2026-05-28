@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 1020,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Sarah Wang (specialist) departure airfare is $820, exceeding the North America flight reimbursement limit of $380 for flights 3-6 hours. The excess  is not reimbursable. According to Reimbursement_Standard_enterprise.xlsx, specialist level employees have a $380 one-way cap for North America flights 3-6h. Her return ticket ($680) is still beyond the limit.Besides Sarah Wang's hotel bill shows $230 per night for 2 nights at Grand Hyatt San Francisco (Tier 1 North America city), totaling $460. This exceeds the accommodation reimbursement limit of $100 per night for specialist level in North America Tier 1 cities. The excess $130 per night ($260 total) is not reimbursable.And the maximum reimbursement limit per meal is $20. All three meals exceeded this limit, and any amount over $20 is non-reimbursable.",
+        "score": 0.5
+    }
+}

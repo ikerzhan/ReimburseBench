@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.3
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Severe mismatch of transaction merchant location: the car rental return location is San Jose California International Airport (CA), whereas the team building event and designated pickup location is Seattle-Tacoma International Airport (SEA), Seattle, WA.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The voucher is a booking confirmation rather than a final consumption settlement certificate, which cannot prove that the expense was actually incurred.",
+        "score": 0.25
+    }
+}

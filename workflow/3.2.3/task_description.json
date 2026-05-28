@@ -1,0 +1,25 @@
+{
+    "id": "3.2.3",
+    "required_amount": 13952.0,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Inspection_Notice_and_Plan.docx",
+            "Instrument_Checkout_Log.xlsx",
+            "Transport_Waybill.png",
+            "Reimbursement_Standard.xlsx",
+            "Heavy_Equipment_Transport_Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Engineering Department": [
+                "Heavy_Transport_Contract_and_Invoice.png"
+            ]
+        }
+    },
+    "context": "Long-distance transport of heavy inspection equipment for an out-of-town project acceptance test"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "1.3.3",
+    "required_amount": 1154,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Business_Trip_Authorization_1_3_3.pdf",
+            "Travel_Approval.pdf",
+            "Travel_Reimbursement_Policy.pdf",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "David_Liu": [
+                "David_Liu_AirTicket_Departure.png",
+                "David_Liu_AirTicket_Return.png",
+                "David_Liu_HotelBill.png",
+                "David_Liu_Dining_0615.jpg",
+                "David_Liu_Dining_0616.jpg",
+                "David_Liu_Dining_0617.jpg",
+                "David_Liu_Taxi_0615.png",
+                "David_Liu_Taxi_0616.png",
+                "David_Liu_Taxi_0617.png"
+            ]
+        }
+    },
+    "context": "Comprehensive expense reimbursement for  employees on business trips"
+}

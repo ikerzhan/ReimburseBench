@@ -1,0 +1,23 @@
+{
+    "id": "2.3.2",
+    "required_amount": 3980,
+    "currency": "EGP",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "North_Africa_Major_Client_Service_Project_Cairo.pdf",
+            "Partnership_Appreciation_Week_Plan.pdf",
+            "Project_Material_Requisition_Form_2020.pdf",
+            "Travel_and_Consulting_Fee_Reimbursement_Policy.pdf",
+            "business_gifts.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Khwarizmi_Muhammad": "2_PurchaseTicket_1008.png"
+        }
+    },
+    "context": "Customized business gifts for key clients"
+}

@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 29.55,
+        "score": 0.45
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Based on the Senior Manager tier, John Smith’s daily reimbursable taxi limit is capped at USD 40. According to the exchange rate stated in the Exchange_Rate_Reference, the amount on taxi_receipt_10.jpg far exceeds USD 40; therefore, only the portion equivalent to USD 40, i.e., 29.55 GBP, is eligible for reimbursement.",
+        "score": 0.3
+    }
+}

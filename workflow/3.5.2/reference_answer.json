@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.15
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Missing tax number on electricity invoice: The electricity invoice has a blank 'Taxpayer Identification Number' field. According to the Reimbursement Policy, all invoices must contain the correct TIN. This invoice is invalid.",
+        "score": 0.2
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Incorrect tax number on water invoice: The tax number '123456789012345678' is not a valid 18-digit Uniform Social Credit Code (last digit should be 'X'). Policy requires the correct 18-digit UCC. This invoice is invalid.",
+        "score": 0.2
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "Insufficient supporting documentation. According to the reimbursement policy, utility expense claims require four types of additional supporting documents. However, this claim lacks the payment proof for water charges. Therefore, the background documents required for water expense reimbursement are inadequate.",
+        "score": 0.2
+    }
+}

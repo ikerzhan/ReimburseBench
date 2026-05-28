@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The time on the receipt is 9:58, but according to online information, the shop opens at 11:45 AM. The receipt time is earlier than the opening time, suggesting potential fraud.",
+        "score": 0.5
+    }
+}

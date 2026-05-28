@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The consumption location on 3_DiningPurchaseTicket_223.png is in Singapore, but the dining fare occurrence location shown in the background documents is in Hong Kong. The consumption locations are completely inconsistent, so this expense is not reimbursable.",
+        "score": 0.5
+    }
+}

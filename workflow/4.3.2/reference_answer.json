@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Location mismatch between reimbursement form and train ticket: The reimbursement application form (Reimbursement_Form_XINLONG_WANG.xlsx) lists the arrival city as 'Salerno Centrale', while the submitted train ticket (train_ticket_05.jpg) clearly shows the arrival city as 'Potenza Centrale'. According to the 'Policy for Reimbursement of Travel Expenses – Acad.docx', receipts must accurately reflect the travel route, and the departure/arrival cities on the application must match those on the receipt. The discrepancy renders the claim invalid.",
+        "score": 0.16
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Destination inconsistent with academic activity location: The invitation agreement (Invitation Letter and Agreement.docx) states that the expert is invited to deliver a lecture in Potenza, and the outward journey is from Naples to Potenza. However, the reimbursement application claims the arrival city as Salerno, which is not the location of the academic activity, violating the requirement that travel expenses must be directly related to the event.",
+        "score": 0.17
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "Internal inconsistency within the reimbursement form: The reimbursement form states the purpose of travel as 'Deliver academic lecture in Potenza' but lists the arrival city as 'Salerno Centrale'. These two entries contradict each other, making the application self-inconsistent and unreliable for reimbursement review.",
+        "score": 0.17
+    }
+}

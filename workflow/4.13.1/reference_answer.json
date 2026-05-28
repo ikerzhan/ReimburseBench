@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice total amount exceeds approved budget: According to the test notice (Art_Admission_Test_Notice.docx), the test fee is ¥300 per candidate for 200 candidates, totaling ¥60,000. The submitted invoice shows a total of ¥62,000, which includes an extra ¥2,000 'test service fee' that was not pre‑approved. This additional charge is not authorized by the university. Therefore the claimed amount (¥62,000) is invalid, and only the legitimate portion (¥60,000) could theoretically be considered.",
+        "score": 0.15
+    },
+    "Scoring_point_5_Problem_2": {
+        "answer": "Invoice date exceeds payment deadline: The test notice requires payment by 2023-12-31. However, the invoice date is 2024-01-15, which is after the deadline. The university's financial regulations mandate that all invoices must be dated on or before the approved payment cutoff date to be valid. The late issuance violates the procurement policy and therefore the invoice is invalid for reimbursement.",
+        "score": 0.15
+    },
+    "Scoring_point_6_Problem_3": {
+        "answer": "Incorrect taxpayer identification number on invoice: The invoice shows the university's Unified Social Credit Code as '91440101MA5ABCD124', but the correct code is '91440101MA5ABCD123' (last digit 3, not 4). This mismatch means the invoice cannot be legally used for tax deduction or accounting purposes. According to internal control standards, an invoice with an incorrect buyer tax ID must be rejected and reissued. Thus the claim is denied.",
+        "score": 0.2
+    }
+}

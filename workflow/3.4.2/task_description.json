@@ -1,0 +1,24 @@
+{
+    "id": "3.4.2",
+    "required_amount": 6000.0,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Subcontractor_Contract_and_Personnel_List.docx",
+            "Daily_Attendance_Sheet.xlsx",
+            "Meal_Allowance_Standard_Approval.docx",
+            "Worker_Payment_Signatures.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Guangdong Construction Co.": [
+                "Meal_Allowance_Invoice.png"
+            ]
+        }
+    },
+    "context": "Meal allowance for external subcontractor construction team (per diem)"
+}

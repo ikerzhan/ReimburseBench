@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.3
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Consumption location is seriously inconsistent with the assigned location.The official dispatch notice designates the project location as Vancouver, BC (British Columbia). However, the hotel invoice indicates the accommodation is in Saint John, NB (New Brunswick). The straight-line distance between the two cities is approximately 4,200 kilometers, which far exceeds the permissible 100-kilometer limit.",
+        "score": 0.5
+    }
+}

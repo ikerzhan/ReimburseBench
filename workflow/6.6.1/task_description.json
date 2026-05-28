@@ -1,0 +1,20 @@
+{
+    "id": "6.6.1",
+    "required_amount": 1300.0,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "File1_Event_Notice_Employee_Talent_Competition.docx",
+            "File2_Execution_Record_Stage_Equipment_Leasing.xlsx",
+            "File3_Reimbursement_Policy_Event_Expense_Standards.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names...",
+            "Sarah_Mitchell": "image.png"
+        }
+    },
+    "context": "activity,rental"
+}

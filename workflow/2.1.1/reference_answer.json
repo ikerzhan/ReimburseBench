@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipts DiningPurchaseTicket_2.png, DiningPurchaseTicket_3.png and DiningPurchaseTicket_4.png have consecutive numbers (IDs are sequential), with different dates but the transaction time of 13:27 on three of the days, suggesting that an order from a single day may have been split into 3 separate days for reimbursement.",
+        "score": 0.2
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "All four receipts contain purchases of large quantities of suspicious items (e.g., 20 Customer Chopsticks Sleeves purchased on 2025.10.12), indicating a possibility of attempting to maximize the reimbursement limit through improper means; justification for purchasing such large quantities of these items requires further explanation.",
+        "score": 0.2
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "The DiningPurchaseTicket_1.png receipt shows the date as the year 2825, which is an impossible year. Therefore, this receipt is invalid and cannot be accepted for reimbursement.",
+        "score": 0.2
+    }
+}

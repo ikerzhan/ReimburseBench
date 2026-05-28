@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 62.7,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Only ¥62.70 on this invoice represents the paid portion. Reimbursement is limited to this amount. The remaining unpaid portion is not reimbursable.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 89.9,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Missing passenger identification on outbound ticket: The outbound train ticket (Roma→Firenze, 15 Nov 2025, ITALO 8918) has a blank Passenger ID field. Per Reimbursement Policy Section 3(4), any ticket with missing passenger information is invalid and will be rejected.",
+        "score": 0.5
+    }
+}

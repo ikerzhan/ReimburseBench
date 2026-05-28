@@ -1,0 +1,25 @@
+{
+    "id": "4.1.1",
+    "required_amount": 1010.0,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_on_Organizing_Provincial_Competition_Shuttle.docx",
+            "Actual_Sign-in_Sheet.xlsx",
+            "Chartered_Bus_Reimbursement_Policy.docx",
+            "Reimbursement_Claim_Sheet.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "Zhou Wei": [
+                "INV-202331.png"
+            ]
+        }
+    },
+    "context": "Chartered bus rental for a provincial academic competition"
+}

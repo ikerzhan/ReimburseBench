@@ -1,0 +1,20 @@
+{
+    "id": "3.7.1",
+    "required_amount": 359.7,
+    "currency": "CAD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Project_Field_Trip_Approval.docx",
+            "Itinerary_and_Schedule.xlsx",
+            "Hotel_Reimbursement_Claim_Form.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "AYYAAZ JANMOHAMED": "hotel_invoice.jpg"
+        }
+    },
+    "context": "Accommodation expenses for a field engineering project"
+}

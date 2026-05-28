@@ -1,0 +1,22 @@
+{
+    "id": "1.4.5",
+    "required_amount": 33.2,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Approval Notification for Travel Expense Reimbursement Related to the Smart City Data Infrastructure Assessment Project On-Site Survey in Washington, D.C.pdf",
+            "Excerpts from the Administrative Measures for Project Travel and Expense Reimbursement.pdf",
+            "Notice on Commencing the On-Site Survey Work in Washington, D.C. for the Smart City Data Infrastructure Assessment Project.pdf",
+            "On-Site Survey Itinerary and Budget Breakdown.xlsx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Ming/Li_Hua/Wang_Wei": "3_TaxiTicket_2221.png"
+        }
+    },
+    "context": "taxi fare on site visits"
+}

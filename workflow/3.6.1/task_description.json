@@ -1,0 +1,25 @@
+{
+    "id": "3.6.1",
+    "required_amount": 12000,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Temporary_Land_Use_Approval.docx",
+            "Land_Rental_Contract.docx",
+            "Site_Usage_Record.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Project Office": [
+                "Land_Rental_Invoice.png",
+                "Site_Photos.png"
+            ]
+        }
+    },
+    "context": "Land rental fee for site office prefab"
+}

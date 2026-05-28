@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 150.0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The accommodation fee exceeds the daily limit. The hotel bill of Residence Inn Charlotte City Center amounts to USD 206.30, exceeding the accommodation cap of USD 150 per night for second-tier cities in the US. The excess amount of USD 56.30 is non-reimbursable.",
+        "score": 0.3
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Duration mismatch: The dispatch notice and assignment schedule require accommodation for 2 nights (Nov 27 and Nov 28), but the submitted hotel folio only covers 1 night (check-in 28Nov23, check-out 29Nov23). The missing night of Nov 27 lacks supporting receipt, violating the policy that claims must include complete documentation aligning with the authorized travel period.",
+        "score": 0.3
+    }
+}

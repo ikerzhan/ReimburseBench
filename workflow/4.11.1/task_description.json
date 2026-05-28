@@ -1,0 +1,26 @@
+{
+    "id": "4.11.1",
+    "required_amount": 20000,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Recruitment_Event_Plan.docx",
+            "Venue_Rental_Contract.pdf",
+            "Sign_in_Sheet.xlsx",
+            "Event_Photos.jpg",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Admissions Office": [
+                "Hotel_Invoice.png",
+                "Payment_Receipt.png"
+            ]
+        }
+    },
+    "context": "Venue rental for off-campus recruitment fair"
+}

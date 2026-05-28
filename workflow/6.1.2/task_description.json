@@ -1,0 +1,22 @@
+{
+    "id": "6.1.2",
+    "required_amount": 4106.52,
+    "currency": "PHP",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_2019_SEA_R&D_Team_Building_Activity.docx",
+            "2019_Team_Building_Participant_List_and_Itinerary.xlsx",
+            "Travel_and_Team_Building_Transportation_Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Carlos_Reyes": "3_FlightItinerary_139.png"
+        }
+    },
+    "context": "activity,transportation"
+}

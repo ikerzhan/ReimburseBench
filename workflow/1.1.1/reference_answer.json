@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 340,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The accommodation unit price exceeds the specified standard. According to the 'Reimbursement_Standard', the reimbursement limit for professor-level personnel in North American Tier 1 cities (such as San Diego) during peak season is 220 USD/night, while the bill shows two nights at 1476.15 USD, significantly exceeding the limit.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "2.2.4",
+    "required_amount": 11101,
+    "currency": "INR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Travel_and_Transportation_Expense_Reimbursement_Policy.pdf",
+            "Office_Supplies_Procurement_and_Reimbursement_Policy.pdf",
+            "Customer_Reception_Activity_Approval_Form.pdf",
+            "Customer_Cooperation_Exchange_Minutes.pdf",
+            "Customer_Reception_Plan.pdf",
+            "Reimbursement_Standard.xlsx",
+            "Boyuan_Tech_Customer_Reception_Itinerary.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Rajesh_Malhotra": "3_TaxiTicket_886.png",
+            "Clients": [
+                "3_TaxiTicket_884.png",
+                "3_TaxiTicket_885.png"
+            ]
+        }
+    },
+    "context": "Private round-trip charter transportation for picking up and dropping off key clients in other cities"
+}

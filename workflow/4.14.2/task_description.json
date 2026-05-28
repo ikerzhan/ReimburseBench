@@ -1,0 +1,24 @@
+{
+    "id": "4.14.2",
+    "required_amount": 500,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Student_Application_Form.docx",
+            "Agency_Transport_Record.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "Li Wei": [
+                "IELTS_Registration_Confirmation.png",
+                "Agency_Service_Invoice.png"
+            ]
+        }
+    },
+    "context": "Agency service fee for IELTS/TOEFL registration (including exam fee and service charge)"
+}

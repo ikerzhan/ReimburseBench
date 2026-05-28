@@ -1,0 +1,22 @@
+{
+    "id": "6.5.1",
+    "required_amount": 9234.4,
+    "currency": "EUR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Work_Notice_BTS2023_Site_Services_EN.docx",
+            "BTS2023_Site_Services_Approval_Record_EN.xlsx",
+            "Site_Services_Reimbursement_Policy_2023_EN.docx",
+            "Exchange_Rate_Reference.xlsx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Elena_Weber": "Event_Site_Services_Invoice_2023.png"
+        }
+    },
+    "context": "activity,service"
+}

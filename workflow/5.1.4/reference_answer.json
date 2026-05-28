@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The reimbursement scenario is Intra-city overtime commute transportation expense, but the ticket 3_TaxiTicket_41.png is a dining/catering receipt, which is a ticket type error.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Currency mismatch in invoice versus contract and approval: The approved budget and rental contract both specify €2,800 (Euros) for the venue rental. However, the submitted hotel invoice (INV-4567-2023) is denominated in Chinese Yuan (¥2,959.32) with a ¥ currency symbol, despite being issued by Manchester Central Hotel in the UK to the University of Manchester Careers Office, which violates reimbursement documentation requirements.",
+        "score": 0.5
+    }
+}

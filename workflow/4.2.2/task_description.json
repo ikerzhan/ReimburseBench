@@ -1,0 +1,26 @@
+{
+    "id": "4.2.2",
+    "required_amount": 129.8,
+    "currency": "EUR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Regulations for the Reimbursement of Travel and Transportation Expenses for Educational Research Projects.docx",
+            "Notice on the Dispatch of Teachers to the Southern Region for the “Equity and Quality Enhancement in Education” Teaching Support Program.docx",
+            "Reimbursement_Standard.xlsx",
+            "RECEPTION AND TRANSFER CERTIFICATE.docx",
+            "Southern Region Teaching Program Itinerary and Budget Execution Report.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "XINLONG WANG": [
+                "train_ticket_03.jpg",
+                "train_ticket_04.jpg"
+            ]
+        }
+    },
+    "context": "Long-distance public transportation for teaching"
+}

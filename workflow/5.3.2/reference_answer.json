@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 83.33,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Accommodation exceeds job level limit: Manager/Supervisor North America Tier 3 cap is $85 USD (~83.33 CAD). The $368.66 CAD receipt (~$376 USD) far exceeds this. Per Highest Amount rules, money2 uses the standard cap (83.33 CAD), matching money1.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Non-essential upgrade fee: The $55.00 room upgrade is discretionary personal consumption, not a necessary emergency expense.",
+        "score": 0.25
+    }
+}

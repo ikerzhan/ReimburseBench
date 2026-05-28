@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.3
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The reimbursement supporting documents are incomplete: the Expense Claim Form is missing, along with the required verification and endorsement from the direct supervisor and the Finance Department",
+        "score": 0.5
+    }
+}

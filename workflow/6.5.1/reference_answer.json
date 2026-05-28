@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Approval process irregularities: The Finance Department completed review on May 11, 2023, prior to the Department Head’s initial review on May 12, violating the site service reimbursement rule that financial review can only proceed after initial approval. The on-site service started on May 17, ahead of the VP’s final approval on May 18, with service delivery and personnel admission arranged before the four-level approval workflow was fully completed.",
+        "score": 0.3
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Conflict of interest due to lack of segregation of duties: Elena Weber, the procurement applicant who initiated the expenditure request, also served as the Department Head Initial Review approver, resulting in a material conflict of interest where an individual effectively approves her own spending and compromises independent oversight.",
+        "score": 0.3
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice number mismatch: According to the 'Art_Admission_Test_Notice.docx', the submitted invoice number required by the university is '0440320011234567890'. However, the pre‑registered invoice shows invoice number '0440320011234567690' (the 15th digit is incorrectly '6' instead of '8'). This discrepancy violates the university's procurement policy, which mandates that the invoice number must exactly match the pre‑authorized number. Therefore the invoice is invalid.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Invoice date exceeds payment deadline: The test notice requires payment by 2023-12-31, and the invoice date should be carried out in 5 days afterpayment. The submitted invoice is dated 2024-01-10, which is after the deadline. This violates the payment terms and renders the invoice non‑reimbursable.",
+        "score": 0.25
+    }
+}

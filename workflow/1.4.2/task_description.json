@@ -1,0 +1,28 @@
+{
+    "id": "1.4.2",
+    "required_amount": 193.76,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Employee_Business_Travel_Reimbursement_Measures.pdf",
+            "Notice_Dispatching_Project_Team.pdf",
+            "Supplementary_Note_Local_Transport_Reimbursement.pdf",
+            "US_Urban_Transport_Policy_Research_Itinerary.xlsx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Wei/Li_Na": [
+                "3_TaxiTicket_952.png",
+                "3_TaxiTicket_21.png",
+                "3_TaxiTicket_32.png",
+                "3_TaxiTicket_950.png",
+                "3_TaxiTicket_949.png"
+            ]
+        }
+    },
+    "context": "taxi fare on site visits"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "6.4.1",
+    "required_amount": 7050.61,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Work_Notice_BTS2026_Promotional_Materials_Procurement.docx",
+            "BTS2026_Procurement_Approval_Record.xlsx",
+            "Procurement_Expense_Reimbursement_Policy_2026.docx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Elena_Weber": "image.png"
+        }
+    },
+    "context": "activity,purchase"
+}

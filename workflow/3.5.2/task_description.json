@@ -1,0 +1,27 @@
+{
+    "id": "3.5.2",
+    "required_amount": 4148.8,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Project_Site_Lease_Agreement.docx",
+            "Reimbursement_Policy.docx",
+            "Utility_Reimbursement_Standard.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "xxx Iechnology Co.,Ltd": [
+                "electricity_invoice.png",
+                "water_invoice.png",
+                "site_meter_photo.jpg",
+                "payment_proof.jpg"
+            ]
+        }
+    },
+    "context": "Monthly utility bill settlement for project site office"
+}

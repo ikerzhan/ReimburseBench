@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 580,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Meter reading inconsistency: The invoice claims consumption of 6,650 kWh (start 15,200, end 21,850). However, the on‑site meter photo taken on 5 January 2025 shows a reading of only 16,200 kWh. This is only 1,000 kWh above the reported start reading, not 6,650 kWh. The invoice either contains a typographical error or is deliberately inflated. The actual consumption should be approximately 1,000 kWh, which at ¥0.58/kWh would be ¥580. The claim for ¥3,850 is therefore fraudulent.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Missing proof of delivery: The submitted documents include a transport contract and invoice, but no waybill, delivery receipt, or signed confirmation from the receiving party at the Nanning bridge site. The instrument checkout log shows equipment checked out but does not record any arrival confirmation or return. Without a transport waybill or equivalent delivery proof, the university cannot verify that the instruments were actually transported to and received at the remote inspection location. Therefore, the transport expense is not substantiated.",
+        "score": 0.5
+    }
+}

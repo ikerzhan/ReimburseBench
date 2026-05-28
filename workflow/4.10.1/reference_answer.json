@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Employee resigned before invoice due date: HR records (not submitted by claimant but known to finance) show that the employee submitted resignation effective 1 June 2025. The third tuition installment invoice is dated 10 June 2025, after the resignation effective date. According to the service agreement (Clause 8), the company is not obligated to reimburse any installment that becomes due after the employee's resignation. Therefore the claim is invalid.",
+        "score": 0.5
+    }
+}

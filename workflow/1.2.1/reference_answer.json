@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.35
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Discrepancy in Headcount: The receipt explicitly states the number of diners is 1, which contradicts the statement in 01_Meeting_Minutes_and_Return_Travel_Explanation that claims there were 4 attendees.",
+        "score": 0.2
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Meal Expense Overrun: The per-meal limits for business dining in New York are $65 for a General Manager and $42 for a Senior Manager. However, the total cost of this meal was $169.82. Combined with the \"Guest: 1\" notation on the receipt, this indicates a clear violation of the expense policy.",
+        "score": 0.2
+    }
+}

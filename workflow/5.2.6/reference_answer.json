@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The product description on the receipt is incomplete and vague. The name and specification of purchased items are unrecognizable, which cannot match the approved procurement categories such as stationery, drinking water and cleaning supplies.",
+        "score": 0.5
+    }
+}

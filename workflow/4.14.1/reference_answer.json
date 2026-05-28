@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 200,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Missing agency service fee invoice: The student claimed ¥500 total, including ¥300 for agency service fee (transport + briefing). However, the Agency Service Claim Form explicitly states 'Agency Service Invoice / Receipt – NO (not provided)' and the Finance Office remarks indicate 'Waiting for service invoice.' According to the Reimbursement Policy (Section I and III), the agency service fee requires a formal VAT invoice or receipt issued by the service agency, clearly stating the service description and amount. The absence of this mandatory document makes the ¥300 agency service portion ineligible for reimbursement.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Irrelevant payment record submitted as proof of agency service fee: The only payment document submitted for the ¥300 agency service fee is an Alipay transfer screenshot dated 2025-01-15. The recipient is 'Zhang Wei (personal account),' an individual with no affiliation to any authorized exam agency. The transaction remark states '代购 (Purchasing on behalf),' and the screenshot itself includes a note explicitly declaring: 'This transaction has no connection to any exam registration or authorized agency service. The recipient is an individual, not the official exam agency or the recognized service provider.' This personal transfer to an unrelated individual cannot substitute for a formal agency invoice and violates the reimbursement policy requirement that service fees must be supported by official documentation from the service provider.",
+        "score": 0.25
+    }
+}

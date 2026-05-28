@@ -1,0 +1,23 @@
+{
+    "id": "5.4.5",
+    "required_amount": 11.04,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "General_Research_Project_Reimbursement_Policy_v3.pdf",
+            "Brownsville_Overtime_Meal_Notice_April_2016.pdf",
+            "April_2016_Brownsville_Research_Team_Overtime_Log_Modified.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Brownsville_Overtime_Meal_Notice_Supplementary.docx",
+            "Research_Policy_Supplementary.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Emily Watson": "1_DiningTicket_264.jpg"
+        }
+    },
+    "context": "office,catering"
+}

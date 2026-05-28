@@ -1,0 +1,21 @@
+{
+    "id": "6.5.2",
+    "required_amount": 129.41,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_2024_Q2_Product_Launch_Event.docx",
+            "Product_Launch_Print_Deliverables_2024.xlsx",
+            "Event_Print_Services_Reimbursement_Policy_2024.docx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Lisa_Chen": "2_DocumentPrinting_11.jpg"
+        }
+    },
+    "context": "activity,service"
+}

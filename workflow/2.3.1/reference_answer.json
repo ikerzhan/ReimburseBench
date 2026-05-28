@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Based on Egyptian date formatting conventions, the invoices 2_PurchaseTicket_1007.png and 2_PurchaseTicket_1008.png appear to be dated April 9, 2021. However, the event in question took place in September. The significant gap between the procurement date and the event date is highly suspicious.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "It is implausible that cleaning supplies, such as mops and buckets, were selected as gifts for a significant occasion. This raises concerns that relevant personnel may be attempting to purchase private items at the company's expense. Furthermore, while other gifts were purchased in batches of 10, the mops and buckets were bought in small quantities insufficient for gift distribution, further suggesting they were intended for private use.",
+        "score": 0.25
+    }
+}

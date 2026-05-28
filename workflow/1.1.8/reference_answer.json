@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The location of the hotel should be consistent with the location of the academic conference, which is San Diego, but the city of the hotel is Houston. The consumption location is inconsistent with the event location in the document.",
+        "score": 0.5
+    }
+}

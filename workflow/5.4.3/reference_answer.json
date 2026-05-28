@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The Johnny Rockets receipt indicates 'Gst 4' (4 guests), but the Project Assignment document only authorizes 3 assigned staff members (Amina Mansour, Ravi Patel, and Sita Sharma). The reimbursement scope is limited to work-related expenses incurred by assigned personnel. Splitting a 4-guest bill equally among 3 staff improperly allocates non-project guest costs to the claim, violating the personnel restriction and the Compliance Policy requirement that expenses must align with the assigned team.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The receipt date 06/12/14 is prone to misinterpretation. It should represent December 6, 2014, yet it can be mistakenly recognized as June 12, 2014. The attendance log only has a record of the team dinner held on December 6, 2014.",
+        "score": 0.25
+    }
+}

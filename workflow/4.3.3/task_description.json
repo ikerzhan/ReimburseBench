@@ -1,0 +1,26 @@
+{
+    "id": "4.3.3",
+    "required_amount": 179.8,
+    "currency": "EUR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Expert_Invitation_Letter.docx",
+            "Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Expert_ID_Registration.xlsx",
+            "Lecture_Attendance.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the expense categories, and the values represent the corresponding receipt files.",
+            "ElenaRoss": [
+                "train_ticket_1.png",
+                "train_ticket_2.png"
+            ]
+        }
+    },
+    "context": "Reimbursement for train travel"
+}

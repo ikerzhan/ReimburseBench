@@ -1,0 +1,26 @@
+{
+    "id": "4.7.2",
+    "required_amount": 211.6,
+    "currency": "EUR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Reception_Letter.docx",
+            "Meal_Application_Form_with_Standard.xlsx",
+            "Reimbursement_Policy_for_Business_Meals.docx",
+            "Reimbursement_Claim_Form.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "Dr. Emily Chen": [
+                "meal_receipt_01.png",
+                "meal_receipt_02.png"
+            ]
+        }
+    },
+    "context": "Working lunch for a visiting delegation from another university"
+}

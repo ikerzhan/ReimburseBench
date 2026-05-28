@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 1250.0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The hotel bill includes 7 nights (14 Oct – 20 Oct, check‑out on 21 Oct), but according to the work plan and approval form, only 5 nights (14 Oct – 18 Oct) were approved. The room charges for 19 Oct and 20 Oct were incurred after the scheduled end date (19 October). These extra nights are not reimbursable.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "For the 5 approved nights, the per‑night charge in each case exceeds the guest accommodation cap of $250 per night for a Tier‑3 North American city. The maximum reimbursable amount for the approved nights is therefore $1,250 (5 nights × $250).",
+        "score": 0.25
+    }
+}

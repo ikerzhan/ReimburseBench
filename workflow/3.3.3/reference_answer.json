@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Forged invoice submitted for double reimbursement: The two submitted invoices reference the same order number (MT-20250415-001), the same meal period, and the same total amount (¥480). The second invoice shows a different seller tax ID (91440101MA5XYZ0001 vs. the legitimate 91440101MA5XYZ0000) and a sequential invoice number. The second invoice is thus fabricated to create an appearance of separate expenses. This constitutes an attempt to defraud the company by claiming duplicate reimbursement using a forged document, which is a serious violation of company policy.",
+        "score": 0.5
+    }
+}

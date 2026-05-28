@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The invoice submitted for the on-site survey travel expenses is issued as 'Office Supplies * Stationery and Consumables' instead of 'Transportation Services' or 'Travel Services'. The invoice category severely mismatches the actual expense type (business travel transportation), violating reimbursement compliance requirements.",
+        "score": 0.5
+    }
+}

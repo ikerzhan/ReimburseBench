@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 6921,
+        "score": 0.5
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The consumption location on the receipt is incorrect. The consumption location shown on 3_TaxiTicket_885.png is in the United States, but the actual pickup/drop-off service for this trip was located in India. Therefore, it can be confirmed that this receipt does not belong to the business activity being reimbursed and is ineligible for reimbursement.",
+        "score": 0.25
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 3485,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Per-night accommodation rate exceeds the standard cap: The hotel bill shows an average nightly charge of $111.87 (room charge $99.00 plus HST 13% of $12.87), which exceeds the Manager/Supervisor Economy Chain limit of $85 per night for North America Tier 3 cities under the Accommodation Reimbursement Standard.Total accommodation cost exceeds the maximum reimbursable amount and full reimbursement is denied: The cumulative bill of $4,586.67 for 41 nights surpasses the maximum allowable reimbursement of $3,485 ($85 per night × 41 nights). Consequently, the expense cannot be fully reimbursed; only partial reimbursement up to the capped amount is permitted.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": "2.1.1",
+    "required_amount": 4400,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Reimbursement_Standard.xlsx",
+            "Boyuan_Technology_Business_Trip_Budget_Execution_Tracking.xlsx",
+            "Business_Travel_and_Entertainment_Expense_Reimbursement.pdf",
+            "Minutes_Strategic_Partnership_Business_Negotiation.pdf",
+            "Notice_Washington_DC_Strategic_Partnership_Negotiation.pdf",
+            "Procurement_and_Reimbursement_Management_Regulations.pdf"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Chen_Zhiyuan": [
+                "DiningPurchaseTicket_1.png",
+                "DiningPurchaseTicket_2.png",
+                "DiningPurchaseTicket_3.png",
+                "DiningPurchaseTicket_4.png"
+            ]
+        }
+    },
+    "context": "Business lunch entertainment for strategic partnership negotiation"
+}

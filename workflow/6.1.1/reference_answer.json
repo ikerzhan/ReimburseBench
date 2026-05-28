@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Duplicate receipt submission: The two submitted files are identical copies of the same Hertz rental agreement (No. 834139854), violating the policy against duplicate claims.",
+        "score": 0.2
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Vehicle type mismatch: The approved plan requires seven-seat or larger business vehicles, but the receipt shows a standard Car Class D passenger vehicle that does not meet the specification.",
+        "score": 0.2
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "Service scope discrepancy: The approval authorizes chartered vehicles with drivers for group shuttle service, while the receipt reflects a personal car rental inconsistent with the approved procurement category.",
+        "score": 0.2
+    }
+}

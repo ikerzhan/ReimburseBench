@@ -1,0 +1,21 @@
+{
+    "id": "1.1.1",
+    "required_amount": 1476.15,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "General Guidelines for Reimbursement of Travel Expenses for Overseas Academic Activities in Scientific Research Projects (V2.1).pdf",
+            "Attendee Itinerary Approval Form.xlsx",
+            "Notice on Travel Arrangements for Participants of the 2024 International Smart Systems Summit (ISS 2024).pdf",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Ming": "2_HotelBill_723.jpg"
+        }
+    },
+    "context": "Lodging expenses for the industry academic conference"
+}

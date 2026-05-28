@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Wrong invoice type submitted: The claim is for reimbursement of high-speed train tickets (Shanghai–Beijing round trip) for a professor attending a conference. However, the submitted invoice is a hotel invoice (Grand Hotel Beijing, CNY 1,200). According to the Reimbursement Policy, only official railway e-tickets or paper tickets are acceptable for train expense claims. Hotel invoices are not acceptable.",
+        "score": 0.5
+    }
+}

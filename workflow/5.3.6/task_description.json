@@ -1,0 +1,20 @@
+{
+    "id": "5.3.6",
+    "required_amount": 562.56,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Dispatch_Plan_and_Task_Assignment.xlsx",
+            "Dispatch_Notification_Remote_Office_Establishment.docx",
+            "Accommodation_Arrangement_Confirmation.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Greg_Smith": "2_HotelBill_106.jpg"
+        }
+    },
+    "context": "office,accommodation"
+}

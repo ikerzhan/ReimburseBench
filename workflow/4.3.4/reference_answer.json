@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Duplicate reimbursement attempt – outbound ticket: Ticket No. G123456 (Prof. Zhang Wei, Beijing→Shanghai, 8 May 2026, CNY 630) appears in the Previously Reimbursed Tickets List (reimbursed on 20 May 2026). Submitting a ticket that has already been reimbursed violates the Reimbursement Policy.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Duplicate reimbursement attempt – return ticket: Ticket No. G123457 (Prof. Zhang Wei, Shanghai→Beijing, 12 May 2026, CNY 630) also appears in the Previously Reimbursed Tickets List. Both tickets have already been claimed. The entire claim is invalid.",
+        "score": 0.25
+    }
+}

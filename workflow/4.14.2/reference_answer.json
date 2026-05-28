@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "IELTS exam fee is not a reimbursable expense under the Reimbursement_Standard.xlsx. The policy does not list any category covering exam or registration fees for language tests such as IELTS. Therefore, the submitted receipt cannot be accepted for reimbursement. As a result, the total eligible amount for this claim is 0.",
+        "score": 0.5
+    }
+}

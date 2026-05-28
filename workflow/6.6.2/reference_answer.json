@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice authenticity violation: The invoice is explicitly marked as a 'simulation diagram' and 'not a real invoice,' with a clear disclaimer that it is 'for content display reference only, not for actual reimbursement.' Per Articles 5 and 8 of the Reimbursement Policy, invoices must be genuine, lawful, and valid, and altered or non-genuine invoices are strictly prohibited. This document is merely a format template rather than a valid tax invoice issued through the national electronic invoice platform, so it fails the fundamental authenticity requirement and cannot be reimbursed.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Excessive rental quantity beyond reasonable activity needs: The team building activity involves only 6 participants, yet the invoice indicates rental of '30 sets of folding tables and chairs' (averaging 5 sets per person), which significantly exceeds the reasonable equipment requirements for a 6-person group conducting outdoor workshops, dining, and strategic sessions. Per Article 3 of the Venue and Equipment Rental Reimbursement Policy, only equipment and facilities 'required for the activity' are reimbursable. Thirty sets of folding tables and chairs for a 6-person team constitutes a manifestly excessive and non-essential procurement, violating the policy's scope boundary that restricts reimbursement to basic supporting services essential to the activity, and therefore constitutes an unreasonable expenditure.",
+        "score": 0.25
+    }
+}

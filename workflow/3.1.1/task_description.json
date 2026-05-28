@@ -1,0 +1,28 @@
+{
+    "id": "3.1.1",
+    "required_amount": 155.55,
+    "currency": "EUR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Project_Staff_Roster_and_Shift_Schedule.docx",
+            "Project_Attendance_Record.xlsx",
+            "Reimbursement_Policy_for_Project_Commuting.docx",
+            "Reimbursement_Standard.xlsx",
+            "Reimbursement_Claim_XINLONG_WANG.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "XINLONG WANG": [
+                "Train_Ticket_03.jpg",
+                "Train_Ticket_04.jpg",
+                "Train_Ticket_05.jpg",
+                "Train_Ticket_06.jpg"
+            ]
+        }
+    },
+    "context": "Engineering, Transportation"
+}

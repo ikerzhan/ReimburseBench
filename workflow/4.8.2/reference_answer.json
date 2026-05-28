@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice quantity does not match approved budget: The submitted e-commerce invoice (receipt_ecommerce.png) and the JD order confirmation (Purchase_Order_JD_Screenshot.xlsx) list 'Customized sticker sheet (10 stickers) × 10' at a total of ¥60.00. However, the approved Class Activity Budget Approval Form explicitly authorizes only 'Customized sticker sheet (10 stickers per sheet) × 8' at a total of ¥48.00. According to the reimbursement policy (Section III.2), the finance office must verify that all invoiced items match the pre-approved list with exact description, quantity, and unit price. The quantity discrepancy (10 sheets invoiced vs. 8 sheets approved) means the invoice does not exactly match the approved budget. Because the invoice cannot be separated or partially accepted, the entire invoice is invalid for reimbursement, and the claim is rejected.",
+        "score": 0.5
+    }
+}

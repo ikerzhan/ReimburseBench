@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.35
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The time information on the ticket is missing, making it impossible to determine when the consumption event occurred; therefore, the claim cannot be reimbursed.",
+        "score": 0.4
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipt timestamp is 6:30:31 PM (18:30), but the Meals Reimbursement Standard explicitly defines eligible overtime meals as those consumed after 20:00, so this meal does not qualify for overtime meal reimbursement.",
+        "score": 0.3
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The receipt lists items named \"PARIS\" and \"LE CLASSIQUE,\" which are commonly recognized as cocktail or alcoholic beverage names, and the merchant \"UMIX\" appears to be a bar or nightclub rather than a standard meal vendor. The policy only covers \"meals, beverages, and delivery-related fees\" directly required for research continuity, and alcoholic beverages fall outside the scope of reasonable overtime meal expenses.",
+        "score": 0.3
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "2.5.2",
+    "required_amount": 2023.5,
+    "currency": "HKD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Cross_Department_Team_Building_Application.pdf",
+            "Reimbursement_Standard.xlsx",
+            "Travel_Entertainment_Expense_Policy.pdf",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Mingyuan": "3_DiningPurchaseTicket_223.png"
+        }
+    },
+    "context": "Cross-department business collaboration team building meal"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "3.5.1",
+    "required_amount": 3850.0,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Site_Rental_Agreement.docx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Project Site Office": [
+                "Utility_Invoice.png",
+                "Meter_Photo.png",
+                "Payment_Receipt.png"
+            ]
+        }
+    },
+    "context": "Monthly utility bill settlement for project site office"
+}

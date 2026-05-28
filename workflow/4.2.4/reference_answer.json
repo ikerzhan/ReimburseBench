@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Wrong invoice type submitted: The claim is for reimbursement of a long‑distance bus ticket for a lecturer traveling to a remote teaching site. However, the submitted invoice is an airline ticket (Flight MU5678, CNY 800). According to the Reimbursement Policy, only official bus tickets or e‑tickets are acceptable for bus expense claims. Airline tickets are not acceptable.",
+        "score": 0.5
+    }
+}

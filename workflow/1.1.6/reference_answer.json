@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipt 2_HotelBill_723.jpg has already been reimbursed but is being submitted again for a new reimbursement, indicating a potential fraud risk.",
+        "score": 0.5
+    }
+}

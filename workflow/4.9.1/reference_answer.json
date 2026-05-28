@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice total amount tampered (forgery): The submitted invoice (INV-2021.png) shows an 'Invoice Total' of ¥3300.00. However, the line items clearly calculate a subtotal of ¥3000.00 (30 units × ¥100.00) plus sales tax of ¥30.00 (1%), which equals ¥3030.00. The total displayed (¥3300.00) is inconsistent with the sum of the line items. This discrepancy indicates deliberate alteration of the invoice amount. According to the reimbursement regulations (Section III), any invoice with inconsistencies between line item totals and the declared total is considered fraudulent and non‑reimbursable.",
+        "score": 0.5
+    }
+}

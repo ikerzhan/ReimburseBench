@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The trip does not form a closed loop. According to the plan, there should be three outbound tickets (Potenza → Napoli, Napoli → Firenze, Firenze → Roma, 28 Oct) and three return tickets (reverse direction of the outbound journey, 29 Oct). However, the corresponding tickets are all missing and have been replaced by invoices that do not comply with the time and location requirements. Per the Reimbursement Policy for Project Commuting, such documentation fails to meet the closed-route verification requirement and lacks the required explanatory documents; therefore, reimbursement cannot be approved.",
+        "score": 0.5
+    }
+}

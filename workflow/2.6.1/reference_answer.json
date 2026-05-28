@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 2149.9,
+        "score": 0.35
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The required amount is overstated. While the ticket price itself does not exceed the reimbursement limit, the client's ticket is reimbursed by their own organization and therefore cannot be counted toward the reimbursable amount.",
+        "score": 0.4
+    }
+}

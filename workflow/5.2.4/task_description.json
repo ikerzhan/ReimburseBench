@@ -1,0 +1,23 @@
+{
+    "id": "5.2.4",
+    "required_amount": 4115.0,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Application_for_Office_Equipment_Procurement_Modified.docx",
+            "2022_Domestic_Team_Office_Services_Purchase_and_Receipt_Modified.xlsx",
+            "Fixed_Assets_and_Office_Supplies_Procurement_Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Domestic_Procurement_Authorization_Notice.docx",
+            "Procurement_Policy_Supplementary_Clause.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Martin_Weber": "image.png"
+        }
+    },
+    "context": "office,purchase"
+}

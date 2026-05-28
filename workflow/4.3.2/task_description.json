@@ -1,0 +1,25 @@
+{
+    "id": "4.3.2",
+    "required_amount": 11.25,
+    "currency": "EUR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Expert_Identity_Bank_Info.xlsx",
+            "Invitation Letter and Agreement.docx",
+            "Policy for Reimbursement of Travel Expenses – Acad.docx",
+            "Reimbursement_Standard.xlsx",
+            "Reimbursement_Form_XINLONG_WANG.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "XINLONG WANG": [
+                "train_ticket_05.jpg"
+            ]
+        }
+    },
+    "context": "Reimbursement for train travel"
+}

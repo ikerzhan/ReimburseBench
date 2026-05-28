@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipt contains incomplete information. It lacks a time field, making it impossible to determine whether this receipt belongs to the procurement task for the North Africa event.",
+        "score": 0.5
+    }
+}

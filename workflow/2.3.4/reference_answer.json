@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 4032.42,
+        "score": 0.5
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipt 2_PurchaseTicket_1007.png includes not only the cards required by business_gifts.xlsx but also some personal items. These personal items are not eligible for reimbursement, and their corresponding prices and taxes must be deducted from the reimbursable amount.",
+        "score": 0.25
+    }
+}

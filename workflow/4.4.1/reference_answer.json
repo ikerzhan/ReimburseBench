@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 100,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Claimed amount exceeds approved per‑night standard: The internship approval limits accommodation to CAD 50 per student per night. Li Ming stayed for 2 nights (16–18 October 2012). The maximum eligible amount is 2 × 50 = CAD 100. However, the student claims the full invoice total of CAD 401.76, which is more than four times the authorized limit. Even if splitting a shared room, the student’s share would be approximately CAD 200.88, still above the limit. No prior approval for a higher rate was obtained.",
+        "score": 0.5
+    }
+}

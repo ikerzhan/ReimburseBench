@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 2085.98,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The expense amount exceeds 2,000 RMB. According to the Travel and Entertainment Expense Policy, team building requests of this value require approval from the Department Director. However, this request was only approved by the Department Manager, which is non-compliant.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The reimbursement standard for team meals is determined by the highest-ranking attendee. In this case, the highest rank present was Senior Manager, which carries a reimbursement cap of 1,800 RMB (approximately 1945 HKD). This amount is significantly lower than the actual expense incurred.",
+        "score": 0.25
+    }
+}

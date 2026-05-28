@@ -1,0 +1,26 @@
+{
+    "id": "4.2.3",
+    "required_amount": 220,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Teaching_Assignment.docx",
+            "Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Previously_Reimbursed_BusTickets.xlsx",
+            "Remote_Transport_Proof.docx",
+            "Receiving_Confirmation.docx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the expense category, and the values represent the corresponding receipt files.",
+            "AssoclateProf.lNa": [
+                "Bus_Ticket.png"
+            ]
+        }
+    },
+    "context": "Long-distance public transportation for teaching"
+}

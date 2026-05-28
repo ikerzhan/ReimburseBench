@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Missing payer name on receipt: The ordinary receipt issued by the village committee has a blank 'Payer' field. According to the Reimbursement Policy, all invoices/receipts must clearly show the buyer/payer full name. This receipt is invalid.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Missing land address in invoice remarks: The tax-authority-issued invoice remarks only say 'Temporary land' without the detailed land address. Policy (and tax regulation) requires rental invoices for immovable property to note the property address. This invoice is non-compliant.",
+        "score": 0.25
+    }
+}

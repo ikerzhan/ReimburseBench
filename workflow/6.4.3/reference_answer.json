@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The transaction date and time on the original receipt are illegible or too blurred to be recognized from the submitted image, making it impossible to verify whether the purchase occurred on the event date (May 9, 2021) or within the required 24-hour window. This violates the Team Activity Refreshment Procurement Policy 2021 Section III.1, which requires the receipt to clearly show the transaction date and time for purchase date alignment verification. Without readable date information, the Finance Department cannot confirm compliance with the purchase timing requirement, resulting in a non-reimbursable status.",
+        "score": 0.5
+    }
+}

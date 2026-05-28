@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The records indicate that both receipts were paid by Zhang Mingyuan at the exact same time. Since it is impossible for one individual to stay in two different rooms simultaneously, this represents an anomaly and poses a potential fraud risk.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The bill shows a total accommodation cost of over $1,000 for two nights. This exceeds the cap of $220 per night for Professors/Researchers in Tier 1 North American cities during peak season,and $160 for off-peak season, as stipulated in the Accommodation Expense Reimbursement Standards. So the maximum reimbursable amount is $380 for a single receipt.",
+        "score": 0.25
+    }
+}

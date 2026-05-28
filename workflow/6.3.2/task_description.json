@@ -1,0 +1,22 @@
+{
+    "id": "6.3.2",
+    "required_amount": 458.0,
+    "currency": "HKD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_2025_APAC_Product_Training_Workshop.docx",
+            "2025_APAC_Product_Training_Participant_List.xlsx",
+            "Travel_and_Refreshment_Expense_Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Karen_Lee": "3_DiningPurchaseTicket_997.png"
+        }
+    },
+    "context": "activity,catering"
+}

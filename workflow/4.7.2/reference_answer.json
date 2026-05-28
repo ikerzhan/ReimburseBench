@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 160.0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Unauthorised alcohol expense: The second invoice (INV‑102332) shows a charge of €50.00 for two bottles of red wine. According to the reimbursement policy (Section IV), alcoholic beverages are generally not reimbursable unless explicit pre‑approval is obtained. No such approval was attached. The claimant attempted to hide the alcohol cost by submitting a separate invoice, but this violates the policy.",
+        "score": 0.3
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The meal expense exceeded the standard of €16 per person, so the maximum reimbursable amount is only €160.",
+        "score": 0.2
+    }
+}

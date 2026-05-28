@@ -1,0 +1,24 @@
+{
+    "id": "4.13.3",
+    "required_amount": 60000,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Art_Admission_Test_Notice.docx",
+            "Fee_Payment_List.xlsx",
+            "Test_Venue_Exam_Log.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Admissions Office": [
+                "Consolidated_Invoice.png"
+            ]
+        }
+    },
+    "context": "Batch invoice for art major professional test fees (200 candidates)"
+}

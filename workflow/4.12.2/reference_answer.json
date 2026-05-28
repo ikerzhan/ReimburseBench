@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 2800,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Exceeding approved budget: The approved budget for venue rental is €2,800. The submitted two invoices total €3,150 (€2,800 + €350), which exceeds the approved amount by €350. University policy requires that any amount over the approved budget must be pre‑authorized. No such authorization was obtained.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Splitting excess cost into a second invoice to circumvent approval: The second invoice (INV-4568-2023) for €350 is labeled as 'overtime – venue extension'. According to the rental contract, overtime requires a written addendum signed at least 48 hours before the event. No such addendum exists. The claimant deliberately split the total €3,150 into two invoices – one matching the contracted amount (€2,800) and a second smaller invoice for the overage – in an attempt to make the main invoice appear compliant while still claiming the full cost.",
+        "score": 0.25
+    }
+}

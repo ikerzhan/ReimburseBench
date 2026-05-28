@@ -1,0 +1,20 @@
+{
+    "id": "5.3.8",
+    "required_amount": 206.3,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Dispatch_Notice_Charlotte_Client_Site_2023.docx",
+            "Charlotte_Client_Site_Assignment_Schedule.xlsx",
+            "Business_Travel_Accommodation_Reimbursement_Policy_2023.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "W_Pierson": "2_HotelBill_62.jpg"
+        }
+    },
+    "context": "office,accommodation"
+}

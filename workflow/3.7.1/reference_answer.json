@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Reimbursement claim form arrival date error (incorrect year and date): The 'Hotel_Reimbursement_Claim_Form.docx' states 'Arrival date: October 12, 2010' and 'Departure date: October 12, 2010'. However, the approved field trip itinerary and the hotel invoice both show the correct travel dates as 10 October 2012 to 12 October 2012. This constitutes a material error in the reimbursement application.The discrepancy invalidates the entire claim.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Excessive reimbursement request exceeding company policy limit: The 'Project_Field_Trip_Approval.docx' explicitly states the room rate limit as 'Not to exceed CAD 85 per night (as per company policy for Tier 3 North America)'. The hotel invoice shows actual accommodation charges of CAD 165.00 per night, plus GST (CAD 8.25) and Tourism Levy (CAD 6.60), resulting in approximately CAD 179.85 per night. For the approved 2-night stay, the maximum reimbursable amount is CAD 170 (85 × 2). However, the employee requests reimbursement of the full invoice total of CAD 359.70, which is CAD 189.70 above the authorized limit. This violates the pre-approved accommodation budget and constitutes an excessive claim.",
+        "score": 0.25
+    }
+}

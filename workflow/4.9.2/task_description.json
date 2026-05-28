@@ -1,0 +1,25 @@
+{
+    "id": "4.9.2",
+    "required_amount": 3030.0,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "National_Teacher_Training_Program_Notice.docx",
+            "Online_Course_Approval_Form.xlsx",
+            "Reimbursement_Regulations_Training.docx",
+            "Course_Itinerary_and_Attendance_Report.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "JOHN SMITH": [
+                "INV-2021.png"
+            ]
+        }
+    },
+    "context": "Online course purchase for teacher professional development under the National Training Program (bulk enrollment)"
+}

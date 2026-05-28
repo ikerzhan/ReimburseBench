@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The reimbursement materials indicate that the receipts involve Zhang Mingyuan, Liu Fang, and Wang Jianguo. However, the Travel Plan, Dispatch Notice, Approval Form, and Trip Report explicitly list only Zhang Mingyuan as the traveler.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The bill indicates a total amount for two nights of accommodation exceeding $1,000. This surpasses the cap of $100 per night for Professors/Researchers in Tier 3 North American cities, as stipulated in the Reimbursement Standards.",
+        "score": 0.25
+    }
+}

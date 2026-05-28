@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The consumption location is at an entertainment venue such as CHLOE81, which does not match the description in 01_Meeting_Minutes_and_Return_Travel_Explanation stating that the meal was taken in the airport waiting area.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The items consumed are primarily alcoholic beverages rather than regular necessary meals, which does not meet the reimbursement requirements for long-distance travel transfer meals.",
+        "score": 0.25
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 6000,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Claimed amount exceeds both the invoice and the contract calculation: The reimbursement claim requests ¥8,000. However, the submitted invoice shows a total of ¥6,000, which exactly matches the calculated meal allowance according to the contract (10 workers × 30 days × ¥20 = ¥6,000). The claimant's arithmetic is inconsistent (10×30×20 = 6,000, not 8,000). No supporting document or pre‑approval justifies the additional ¥2,000. The claim is therefore inflated and must be rejected.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipt includes Irish Coffee priced at HKD 78.00, which is a cocktail containing whiskey, an alcoholic beverage. Per Travel and Refreshment Expense Reimbursement Policy Article 11.4, alcoholic beverages are explicitly classified as non-business expenses and shall not be reimbursed under any refreshment or meal category.",
+        "score": 0.3
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The receipt contains a full pasta dish (Crazy Carbonara Assassino w/ Fusilli Lunghi Bucati Pasta, HKD 129.00) and two desserts (Dubai Chocolate Croffle, HKD 129.00; Homemade Tiramisu, HKD 69.00). Under Reimbursement Policy Article 3.5, refreshment expenses are strictly limited to light snacks, coffee, tea, soft drinks, and other informal beverages. A complete hot pasta dish and multiple dessert items materially exceed the scope of light refreshments and constitute a personal meal rather than an informal group tea-break.",
+        "score": 0.3
+    }
+}

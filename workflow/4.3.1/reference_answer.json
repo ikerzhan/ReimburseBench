@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Date mismatch between reimbursement claim and receipt: The reimbursement application form (Reimbursement_Form_XINLONG_WANG.xlsx) claims the travel date as October 29, 2024, while the submitted train ticket (train_ticket_05.jpg) clearly shows the travel date as October 28, 2024. According to the 'Policy for Reimbursement of Travel Expenses – Acad.docx', receipts must accurately reflect the actual travel date, and the application must match the receipt. The discrepancy of one day renders the claim invalid.",
+        "score": 0.5
+    }
+}

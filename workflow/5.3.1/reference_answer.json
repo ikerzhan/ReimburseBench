@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 562.56,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The submitted reimbursement amount is $5,625.60 USD, but the original hotel receipt (2_HotelBill_106.jpg) shows a total of $562.56. ",
+        "score": 0.5
+    }
+}

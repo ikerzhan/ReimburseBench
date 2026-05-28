@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Duplicate reimbursement prohibited: Ticket No. SC-45678 (Associate Prof. Li Na, Chengdu→Xichang, 30 Jun 2026, CNY 220) already exists in the Previously Reimbursed Bus Tickets List (reimbursed on 10 Jul 2026). Resubmitting the same ticket violates Section 4 of the Reimbursement Policy and constitutes a duplicate claim.",
+        "score": 0.5
+    }
+}

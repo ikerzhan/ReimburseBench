@@ -1,0 +1,20 @@
+{
+    "id": "5.1.4",
+    "required_amount": 15.91,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "NovaTech Solutions Inc. - Employee Nighttime Overtime Transportation Subsidy Management Policy.pdf",
+            "NovaTech Solutions Inc. — Employee Overtime Attendance Record.xlsx",
+            "NovaTech Solutions Inc. - Office Supplies and Consumables Procurement and Reimbursement Management Policy.pdf"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Minghui": "3_TaxiTicket_41.png"
+        }
+    },
+    "context": "Intra-city overtime commute transportation expense"
+}

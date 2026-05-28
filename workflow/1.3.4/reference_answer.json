@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 500,
+        "score": 0.45
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The dining expenses on June 16 ($30) and June 17 ($25) both exceed the reimbursement cap of $20 per meal for Specialist/General Staff in Tier 1 North American cities.",
+        "score": 0.1
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The return flight on June 17 departs at 4:30 PM, but the Lars Ros Thai restaurant receipt shows a dining time of 6:45 PM on the same day. It is impossible for the employee to incur a dining expense in San Francisco after having already departed.",
+        "score": 0.1
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "The June 16 Gary Danko receipt includes a House Wine ($3.50). Per Section 6 of the Travel Reimbursement Policy, alcoholic beverages are non-reimbursable unless prior approval was obtained.",
+        "score": 0.1
+    }
+}

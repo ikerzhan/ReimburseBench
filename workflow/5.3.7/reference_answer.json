@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The information on the original receipt is too blurred or illegible to recognize the exact charge total, violating the requirement that all reimbursement claims must be supported by original, legible receipts with a clearly displayed total amount and itemized breakdown. Without a readable amount, the Finance Department cannot verify the amount's accuracy, confirm adherence to applicable reimbursement standards, or process the claim, resulting in a non-reimbursable status.",
+        "score": 0.5
+    }
+}

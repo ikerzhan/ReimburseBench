@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The receipt from Gourmet Food Stores clearly displays the location as Sheikh Zayed, Giza, and the Purchase Request explicitly specifies Giza as the execution location. However, the Inbound Inspection Log records the city as Cairo for the same procurement on August 9, 2023. The Reimbursement Compliance Policy requires the department head to verify that the city on the receipt is consistent with the actual work location, and the finance system must cross-reference the receipt date and location against approved background materials. Because the Inbound Log records Cairo while the receipt shows Giza, the system cannot confirm that the purchase actually occurred at the authorized project site, causing the reimbursement to fail both the location verification and financial review stages.",
+        "score": 0.5
+    }
+}

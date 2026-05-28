@@ -1,0 +1,22 @@
+{
+    "id": "1.2.3",
+    "required_amount": 45.58,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "01_Meeting_Minutes_and_Return_Travel_Explanation.docx",
+            "02_Travel_and_Business_Entertainment_Expense_Reimbursement_Policy.docx",
+            "03_Notice_on_Convening_Q1_2013_Partner_Technical_Review_Meeting.docx",
+            "04_Employee_Training_and_Development_Expense_Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Weiming/Li_Siyuan/Wang_Xiaofeng/Chen_Zhihao": "3_DiningPurchaseTicket_223.png"
+        }
+    },
+    "context": "Meal expenses additionally incurred during the check-in period due to flight delay."
+}

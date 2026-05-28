@@ -1,0 +1,27 @@
+{
+    "id": "4.1.2",
+    "required_amount": 8500,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Competition_Approval.docx",
+            "Charter_Contract.docx",
+            "Student_Signin_Sheet.xlsx",
+            "Charter_Cost_Statement.docx",
+            "Trip_Itinerary.docx",
+            "Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the expense category, and the values represent the corresponding receipt files.",
+            "xxUniversity": [
+                "Restaurant_Invoice.png"
+            ]
+        }
+    },
+    "context": "Chartered bus rental for a provincial academic competition"
+}

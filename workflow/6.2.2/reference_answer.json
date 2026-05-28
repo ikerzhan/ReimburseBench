@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Individual lodging reimbursement improperly filed against centrally settled third-party arrangement: Per Notice_2024_South_Asia_Supplier_Audit Article VI, accommodation for this audit was centrally booked and prepaid by JAGADAMBA MOTORS (GSTIN 33AGHPG3135F1ZX); the hotel invoice was issued directly to JAGADAMBA MOTORS and the amount is to be settled through the Company's quarterly service reconciliation. Participants are explicitly instructed not to make personal payments or submit separate reimbursement claims for lodging. The folio showing 'Bill To: JAGADAMBA MOTORS' confirms this is a third-party settlement, rendering an individual employee reimbursement claim non-compliant.",
+        "score": 0.5
+    }
+}

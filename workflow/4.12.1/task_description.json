@@ -1,0 +1,25 @@
+{
+    "id": "4.12.1",
+    "required_amount": 2959.32,
+    "currency": "CNY",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Campus_Recruitment_Event_Approval.docx",
+            "Venue_Rental_Contract_Recruitment.docx",
+            "Student_Attendance_Log.xlsx",
+            "Recruitment_Company_List.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the department or entity, and the values represent the corresponding receipt files.",
+            "Careers Office": [
+                "hotel_invoice_recruitment.png"
+            ]
+        }
+    },
+    "context": "Venue rental for a campus recruitment fair at Manchester Central Hotel. "
+}

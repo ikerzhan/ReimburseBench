@@ -1,0 +1,30 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Date tampering — fraudulent alteration of a train ticket: The submitted Roma–Firenze ticket (train_ticket_04.jpg) shows a departure date of 28 October 2024, yet the original ticket (train_ticket_07.jpg) for the identical route, train number 8918, passenger XINLONG WANG, and ticket code VYHNWV bears the authentic departure date of 23 October 2024. The date was clearly altered to fit the claimed travel period. Under Reimbursement_Policy_for_Project_Commuting.docx Section 3, all tickets must be original and unaltered, and any sign of date tampering or digital modification voids the ticket entirely. This constitutes a material breach of receipt authenticity requirements.",
+        "score": 0.1
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Directional error: The claimed outbound journey requires a Potenza-to-Napoli ticket, but the submitted Napoli-to-Potenza ticket (train_ticket_05.jpg) is in the exact opposite direction and is explicitly marked NOT VALID FOR TRAVEL, rendering it ineligible for reimbursement.",
+        "score": 0.1
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "Unreasonable reimbursement documentation: The provided tickets bear the date 23 October 2024, which does not match the claimed travel dates of 28 to 29 October 2024.",
+        "score": 0.1
+    },
+    "Scoring_point_6_Problem_4": {
+        "answer": "Insufficient supporting documentation: For the Salerno-to-Roma segment, the claimant alleges use of a project vehicle but provides only a verbal log. Per Section 3 of the Reimbursement Policy for Project Commuting, any major leg lacking a receipt must be supported by a signed vehicle log; verbal claims are explicitly rejected.",
+        "score": 0.1
+    },
+    "Scoring_point_7_Problem_5": {
+        "answer": "Incomplete itinerary: The return journey lacks a Salerno-to-Potenza or Salerno-to-Roma ticket, and the only return receipt provided is Potenza-to-Salerno, which fails to close the loop back to the project base. This violates the policy stipulation that only round-trip journeys beginning and ending at the project base are eligible for reimbursement.",
+        "score": 0.1
+    }
+}

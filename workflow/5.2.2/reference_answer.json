@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Invoice location is incorrect. The procurement background documents clearly identify the supplier as Frankfurt Office Solutions GmbH with delivery to Frankfurt, Germany. However, the submitted invoice was issued by Jiangyin Xincheng Dongxueliang Daily Necessities Store in China. The transaction location and invoice type do not match the cross-border procurement scenario established in the background files.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The invoice amount is vague and exceeds the limit for some procurement categories:The invoice lists a lump sum of CNY 4,115.00 under the generic item Modern Services* Office Supplies without providing an itemized breakdown. In addition, the single-purchase limits for some office supplies are less than 4,115, making it impossible to determine whether individual line items exceed their respective caps. This poses a certain risk of excessive reimbursement.",
+        "score": 0.25
+    }
+}

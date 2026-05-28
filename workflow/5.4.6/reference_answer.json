@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.3
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Incomplete reimbursement supporting documents: the Daily Work Log submitted to the direct supervisor and London liaison officer during the trip, and the Business Dining Reimbursement Policy 2017 supporting documents (including client participation proof and entertainment purpose statement) are all missing.",
+        "score": 0.5
+    }
+}

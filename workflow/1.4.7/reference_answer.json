@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The business travel destination is Washington DC, but the consumption location shown on this receipt is Houston. The consumption location differs from the travel destination, so this expense is not reimbursable.",
+        "score": 0.5
+    }
+}

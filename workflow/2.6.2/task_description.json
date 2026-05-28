@@ -1,0 +1,24 @@
+{
+    "id": "2.6.2",
+    "required_amount": 2149.9,
+    "currency": "INR",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Business_Travel_Expense_Reimbursement_Regulations.docx",
+            "Customer_Site_Inspection_Work_Plan.docx",
+            "On_Site_Inspection_Meeting_Minutes.docx",
+            "Participants_and_Itinerary_Record_On_Site_Inspection.xlsx",
+            "Reimbursement_Standard.xlsx",
+            "Site_Inspection_Approval_Notice.docx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Amit_Mehta/Sunita_Mehta/Deepak_Mehta": "3_TrainTicket_186.png"
+        }
+    },
+    "context": "Train tickets for accompanying clients to remote factory sites for field surveys"
+}

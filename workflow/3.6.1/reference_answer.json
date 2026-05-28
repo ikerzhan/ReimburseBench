@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Land use approval expired before claimed period and no valid extension was obtained: The temporary land use approval was valid only from 1 January 2023 to 31 December 2023. The submitted invoice is for January 2024, after the approval expired. Clause 6 of the rental contract states that the contract terminates automatically upon expiry of the approval, and Clause 7 requires any extension to be documented in a written addendum signed by both parties. No such addendum was provided. Therefore, the rental expense was incurred without legal authorization and is ineligible for reimbursement.",
+        "score": 0.5
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "5.3.4",
+    "required_amount": 368.66,
+    "currency": "CAD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "1_Emergency_Fault_Handling_Notice_Modified.docx",
+            "2_Emergency_Overtime_Approval_Record_Modified.xlsx",
+            "3_Reimbursement_Documentation_Standards.docx",
+            "Reimbursement_Standard.xlsx",
+            "Accommodation_Arrangement_Confirmation.docx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Michael Zhang": "1_HotelBill_104.jpg"
+        }
+    },
+    "context": "office,accommodation"
+}

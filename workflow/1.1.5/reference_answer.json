@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 340,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The files 2_HotelBill_723.jpg and 3_HotelBill_999.jpg appear to be the same receipt. Please note that a receipt can only be submitted for reimbursement once.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The bill indicates a total amount for two nights of accommodation exceeding $1,000. This surpasses the cap of $220 per night for Professors/Researchers in Tier 1 North American cities during peak season, as stipulated in the Accommodation Expense Reimbursement Standards.",
+        "score": 0.25
+    }
+}

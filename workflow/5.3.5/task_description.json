@@ -1,0 +1,21 @@
+{
+    "id": "5.3.5",
+    "required_amount": 139.22,
+    "currency": "CAD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Dispatch_Notice_Grande_Prairie_2012.docx",
+            "Grande_Prairie_Assignment_Schedule.xlsx",
+            "Business_Travel_Accommodation_Reimbursement_Policy_2012.docx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Robert_Mitchell": "1_HotelBill_05.jpg"
+        }
+    },
+    "context": "office,accommodation"
+}

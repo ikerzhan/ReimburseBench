@@ -1,0 +1,20 @@
+{
+    "id": "6.3.4",
+    "required_amount": 629.0,
+    "currency": "HKD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_2025_APAC_Team_Building_Dinner.docx",
+            "Team_Building_Dining_Reimbursement_Policy_2025.docx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Li_Wei": "3_DiningPurchaseTicket_194.png"
+        }
+    },
+    "context": "activity,catering"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "6.6.3",
+    "required_amount": 175.26,
+    "currency": "CAD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_2024_Edmonton_Regional_Kickoff_Event.docx",
+            "Edmonton_Regional_Event_Transportation_Plan_2024.xlsx",
+            "Event_Equipment_Rental_Reimbursement_Policy_2024.docx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "David_Okafor": [
+                "2_CarRentalTicket_02.jpg",
+                "2_CarRentalTicket_03.jpg"
+            ]
+        }
+    },
+    "context": "activity,rental"
+}

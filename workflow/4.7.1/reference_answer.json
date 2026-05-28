@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Inflated number of attendees – false claim: The claim states 10 people attended the working lunch on 1 January 2025, with a receipt of €161.60. However, lab assignment records confirm three individuals were on duty in Lab 3B during the lunch period and could not have attended. Only 7 people were actually present. By falsely adding 3 attendees, the claimant violated the reimbursement policy and committed fraud.",
+        "score": 0.5
+    }
+}

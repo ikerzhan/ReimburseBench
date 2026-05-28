@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 100,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The combined daily allowance for the three individuals is approximately $100 ($40+$30+$30), yet their taxi expenses on March 10, 2024, exceeded $190.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "While the claim is for transportation expenses, the file '3_TaxiTicket_87.png' is actually a dining receipt.",
+        "score": 0.25
+    }
+}

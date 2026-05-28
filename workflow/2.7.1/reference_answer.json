@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Supplier location does not match procurement plan requirements. The procurement plan (doc1) Section IV explicitly requires selecting suppliers from \"Sherrybury and surrounding areas,\" but the actual supplier Williamson, Murphy and Winters is located in Smithtown, DC 63428, which is not in the same region as the event location Sherrybury, CT 27957. This violates the geographic supplier selection criteria specified in the approved procurement plan.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "The invoice date is missing, making it impossible to determine whether the expense relates to the 2013 Spring Client Reception event.",
+        "score": 0.25
+    }
+}

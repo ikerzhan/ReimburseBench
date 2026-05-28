@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The reimbursement matter is taxi fare for site visits, but the ticket 3_TaxiTicket_2221.png is a hotel invoice, which is a category error.",
+        "score": 0.5
+    }
+}

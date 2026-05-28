@@ -1,0 +1,22 @@
+{
+    "id": "6.2.5",
+    "required_amount": 4586.67,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Project_Dispatch_Notice_Cherry_Hill_Programs_Modified.docx",
+            "Cherry_Hill_Project_Team_Roster_Modified.xlsx",
+            "Travel_and_Business_Expense_Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Accommodation_Arrangement_Confirmation.docx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Joe_Kearney": "2_HotelBill_678.jpg"
+        }
+    },
+    "context": "activity,accomodation"
+}

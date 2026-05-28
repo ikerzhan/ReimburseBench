@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Irrelevant invoice submitted as proof: The attached invoice file (Payment_Screenshot.png) is an electronics purchase invoice issued by Guangzhou Digital Technology Co., Ltd. for 5 wireless mice at ¥28 each, totaling ¥140. It is billed to Zhang Wei (Individual) and dated 2025-04-20.Submitting an unrelated electronics purchase invoice as a meal reimbursement voucher violates the reimbursement policy and constitutes an attempt to claim with false documentation.",
+        "score": 0.5
+    }
+}

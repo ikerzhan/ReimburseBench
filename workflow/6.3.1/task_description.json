@@ -1,0 +1,22 @@
+{
+    "id": "6.3.1",
+    "required_amount": 126.95,
+    "currency": "GBP",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Notice_2014_Western_Europe_Q1_Strategic_Review.docx",
+            "2014_Q1_Strategic_Review_Participant_List.xlsx",
+            "Travel_and_Dining_Expense_Reimbursement_Policy.docx",
+            "Reimbursement_Standard.xlsx",
+            "Exchange_Rate_Reference.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "James_Chen": "1_DiningTicket_355.jpg"
+        }
+    },
+    "context": "activity,catering"
+}

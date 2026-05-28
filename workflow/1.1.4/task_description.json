@@ -1,0 +1,22 @@
+{
+    "id": "1.1.4",
+    "required_amount": 420,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Business Trip Work Summary Report.pdf",
+            "Notice on Dispatching Personnel to Attend the 12th International Neuroscience Symposium in the United States.pdf",
+            "Reimbursement_Standard.xlsx",
+            "Relevant Sheets on Plans and Approval.xlsx",
+            "Travel and Expense Reimbursement Management Regulations for Research Projects.pdf"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Zhang_Mingyuan/Liu_Fang/Wang_Jianguo": "2_HotelBill_723.jpg"
+        }
+    },
+    "context": "Lodging expenses for the industry academic conference"
+}

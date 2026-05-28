@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.35
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "1_PurchaseTicket_14.png and 1_PurchaseTicket_15.png share highly similar details in all aspects, but 1_PurchaseTicket_15 deliberately distorted and deformed the receipt to disguise it. This indicates an intentional attempt to use a manipulated receipt to claim reimbursement.",
+        "score": 0.4
+    }
+}

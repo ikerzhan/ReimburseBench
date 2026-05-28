@@ -1,0 +1,28 @@
+{
+    "id": "2.7.3",
+    "required_amount": 4323.0,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "2012_Spring_Client_Reception_Procurement_Records.xlsx",
+            "doc1_procurement_plan.pdf",
+            "doc2_office_equipment_policy.pdf",
+            "doc3_procurement_approval.pdf",
+            "doc4_travel_expense_policy.pdf",
+            "doc5_preparation_notice.pdf",
+            "Reimbursement_Standard.xlsx",
+            "2013_Spring_Reception_Staff_Roster.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Wang_Ming": [
+                "1_PurchaseTicket_14.png",
+                "1_PurchaseTicket_15.png"
+            ]
+        }
+    },
+    "context": "Flowers and decorations for client reception venue setup"
+}

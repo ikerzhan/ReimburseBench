@@ -1,0 +1,22 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.2
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Service scope mismatch: The invoice includes Venue Rental ($500.00), Catering Services ($150.00), and Event Planning and Coordination ($200.00), all of which exceed the 'stage setup and lighting debugging' scope. Only stage construction, lighting, and sound equipment leasing and debugging fall within the agreed reimbursable category.",
+        "score": 0.2
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Location mismatch: Background documents confirm all services were executed in New York City, but the invoice lists the supplier address as '123 Event Street, Cityville' without any mention of New York City, failing to corroborate the actual service location.",
+        "score": 0.2
+    },
+    "Scoring_point_5_Problem_3": {
+        "answer": "Invoice date mismatch: The invoice is dated June 10, 2023, which is not within a reasonable range of the actual business occurrence date (April 5, 2023 for execution and April 15, 2023 for the event). Per the reimbursement policy, the invoice issuance date must be consistent with or within a reasonable range of the actual business occurrence date.",
+        "score": 0.2
+    }
+}

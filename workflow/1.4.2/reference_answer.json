@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 100,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "The taxi fares incurred on the evening of March 10, 2024, are classified as personal consumption rather than official business expenses; therefore, they are not eligible for reimbursement. Documents involved: 3_TaxiTicket_950.png, 3_TaxiTicket_952.png",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "There is a discrepancy between the travel claims and the official itinerary. The schedule for March 10, 2024, indicates a morning field survey from 11:05 to 14:30, followed by an afternoon survey at the Research Center for Urban Planning and Sustainable Development from 14:50 to 17:00. Consequently, transportation expenses claimed within these time slots are inconsistent with the actual situation and raise suspicions of fraud. Documents involved: 3_TaxiTicket_21.png, 3_TaxiTicket_32.png",
+        "score": 0.25
+    }
+}

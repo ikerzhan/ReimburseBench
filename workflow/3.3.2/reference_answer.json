@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Duplicate reimbursement attempt using two identical invoices: Both submitted invoices have the same number (MT-20250415-001), same date (2025-04-15), same order number, same amount (¥480), and same line‑item details, but one of them was deliberately distorted and deformed to disguise it. The actual meal cost for the 4‑night night shift is ¥480, as supported by the overtime notice and attendance records. By submitting a duplicate invoice, the claimant attempts to claim an additional ¥480, resulting in a total claim of ¥960. This violates the company's expense policy (Section IV – Prohibited Practices). There is no legitimate basis for two separate invoices, and the duplicate submission constitutes an attempt at double reimbursement.",
+        "score": 0.5
+    }
+}

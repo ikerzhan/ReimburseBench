@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Time conflict – cannot be on two overlapping trains: The claimant submitted two tickets both dated 23 October 2024: one from Salerno to Potenza (14:55–16:31) and another from Roma Termini to Firenze S.M. (15:35–17:50). These two journeys overlap in time between 15:35 and 16:31, making it physically impossible for the same person to be on both trains. At least one of the tickets must be forged.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Itinerary contradicts attendance record – false travel purpose: According to the project attendance record (Shift_and_Attendance_Schedule.xlsx), XINLONG WANG was present at the Potenza site on 23 October from 08:55 to 18:10. The second ticket (Roma→Firenze) would require him to be in Rome at 15:35, which is inconsistent with his site check‑in/out record. Moreover, no technical training was scheduled in Florence on that day, and the claimant did not provide any training approval form. Therefore the claimed training trip is unsupported and likely fabricated.",
+        "score": 0.25
+    }
+}

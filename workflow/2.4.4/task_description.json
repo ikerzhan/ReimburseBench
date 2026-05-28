@@ -1,0 +1,22 @@
+{
+    "id": "2.4.4",
+    "required_amount": 1781.96,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Reimbursement_Standard.xlsx",
+            "Polaris_2011_External_Expert_Visit_Registration_and_Expense_Summary.xlsx",
+            "Polaris_Notice_2011_External_Expert_Expense_Reimbursement_Completion.pdf",
+            "Polaris_Travel_Business_Entertainment_Expense_Reimbursement_System.pdf",
+            "Polaris_Work_Plan_External_Expert_Technical_Consultation.pdf"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Brenda_Allbright": "1_HotelBill_24.jpg"
+        }
+    },
+    "context": "Executive room accommodation arranged for an external expert."
+}

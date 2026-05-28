@@ -1,0 +1,18 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 2325,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Michael Chen (Vice President) departure airfare is $1,350, exceeding the North America flight reimbursement limit of $1,200 for flights 3-6 hours. The excess $150 is not reimbursable. According to Reimbursement_Standard_enterprise.xlsx, VP/General Manager level employees have a $1,200 one-way cap for North America flights 3-6h. His return ticket ($980) is within the limit.",
+        "score": 0.25
+    },
+    "Scoring_point_4_Problem_2": {
+        "answer": "Michael Chen's taxi expense on June 16 is $68, exceeding the daily local transportation cap of $55 for VP/General Manager level. The excess $13 is not reimbursable. His June 15 taxi ($48) and June 17 taxi ($42) are within the $55 daily cap.",
+        "score": 0.25
+    }
+}

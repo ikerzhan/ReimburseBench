@@ -1,0 +1,14 @@
+{
+    "Scoring_point_1_Flag": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_2_Max_legal": {
+        "answer": 0,
+        "score": 0.25
+    },
+    "Scoring_point_3_Problem_1": {
+        "answer": "Receipt 3_DiningPurchaseTicket_223.png exhibits numerous inconsistencies. These include, but are not limited to, a significant discrepancy between the total itemized amount and the subtotal, an excessively high service charge, as well as poor image clarity and inconsistent lighting/shadows. Consequently, it is highly probable that this receipt has been altered; its authenticity is questionable and it is likely fraudulent.",
+        "score": 0.5
+    }
+}

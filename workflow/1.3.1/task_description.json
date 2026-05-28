@@ -1,0 +1,27 @@
+{
+    "id": "1.3.1",
+    "required_amount": 2488,
+    "currency": "USD",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Business_Trip_Authorization_1_3_1.pdf",
+            "Travel_Approval.pdf",
+            "Travel_Reimbursement_Policy.pdf",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the names of the attendees, and the values represent the corresponding receipt files.",
+            "Michael_Chen": [
+                "Michael_Chen_AirTicket_Departure.png",
+                "Michael_Chen_AirTicket_Return.png",
+                "Michael_Chen_Taxi_0615.png",
+                "Michael_Chen_Taxi_0616.png",
+                "Michael_Chen_Taxi_0617.png"
+            ]
+        }
+    },
+    "context": "Airfare and local transportation reimbursement for Vice President level employee on North America business trip"
+}

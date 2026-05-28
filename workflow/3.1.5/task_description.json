@@ -1,0 +1,25 @@
+{
+    "id": "3.1.5",
+    "required_amount": 170.0,
+    "currency": "GBP",
+    "reference_outputs": [
+        "reference_answer.json"
+    ],
+    "source_files": {
+        "Background_information": [
+            "Site_Staff_Roster.xlsx",
+            "Site_Attendance_Record.xlsx",
+            "Project_Manager_Confirmation.docx",
+            "Exchange_Rate_Reference.xlsx",
+            "Reimbursement_Standard.xlsx"
+        ],
+        "Receipts": {
+            "standard": "the keys in this dictionary represent the name of the claimant, and the values represent the corresponding receipt files.",
+            "John Smith": [
+                "High_Speed_Rail_Ticket_Outbound.png",
+                "High_Speed_Rail_Ticket_Return.png"
+            ]
+        }
+    },
+    "context": "Engineering, Transportation"
+}
